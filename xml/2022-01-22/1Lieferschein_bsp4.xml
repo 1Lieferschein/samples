@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 ../../../schemas/UN_CEFACT/CrossIndustryInvoice_100pD16B.xsd">
+
+    <rsm:ExchangedDocument>
+        <ram:ID>1200000672-1-0</ram:ID>
+        <ram:IssueDateTime>
+            <udt:DateTimeString format="102">20211011</udt:DateTimeString>
+        </ram:IssueDateTime>
+        <ram:TypeCode>900</ram:TypeCode>
+    </rsm:ExchangedDocument>
+
+    <rsm:SupplyChainTradeTransaction>
+        <ram:ApplicableHeaderTradeAgreement>
+            <ram:SpecifiedProcuringProject>
+                <ram:ID>project reference</ram:ID>
+            </ram:SpecifiedProcuringProject>
+            <ram:BuyerOrderReferencedDocument>
+                <ram:IssuerAssignedID>1200000672</ram:IssuerAssignedID>
+            </ram:BuyerOrderReferencedDocument>
+            <ram:SellerTradeParty>
+                <ram:Name>bobbie Deutschland GmbH</ram:Name>
+                <ram:PostalTradeAddress>
+                    <ram:LineOne>Leopoldstraße 7</ram:LineOne>
+                    <ram:LineTwo></ram:LineTwo>
+                    <ram:LineThree></ram:LineThree>
+                    <ram:CityName>München</ram:CityName>
+                    <ram:PostcodeCode>80802</ram:PostcodeCode>
+                    <ram:CountryID>DE</ram:CountryID>
+                </ram:PostalTradeAddress>
+            </ram:SellerTradeParty>
+            <ram:BuyerTradeParty>
+                <ram:Name>ImmelweltherrschaftGmbH</ram:Name>
+                <ram:ID>10</ram:ID>
+                <ram:PostalTradeAddress>
+                    <ram:LineOne>Hauptstraße 244</ram:LineOne>
+                    <ram:LineTwo></ram:LineTwo>
+                    <ram:LineThree></ram:LineThree>
+                    <ram:CityName>München</ram:CityName>
+                    <ram:PostcodeCode>80992</ram:PostcodeCode>
+                    <ram:CountryID>DE</ram:CountryID>
+                </ram:PostalTradeAddress>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Jan Immel</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>01729844284</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>jan@bobbie.de</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+            </ram:BuyerTradeParty>
+        </ram:ApplicableHeaderTradeAgreement>
+        <ram:ApplicableHeaderTradeDelivery>
+            <ram:ShipToTradeParty>
+                <ram:ID>Hauptstraße 244
+                    80992 München
+                    Deutschland</ram:ID>
+            </ram:ShipToTradeParty>
+            <ram:ActualDeliverySupplyChainEvent>
+                <ram:OccurrenceDateTime>
+                    <udt:DateTimeString format="102">20211022</udt:DateTimeString>
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>
+        </ram:ApplicableHeaderTradeDelivery>
+        <ram:IncludedSupplyChainTradeLineItem>
+            <ram:AssociatedDocumentLineDocument>
+                <ram:LineID>ANRI1110090@7</ram:LineID>
+                <ram:IncludedNote>
+                    <ram:Content>KE-150 Kantenschutzrinne Nr. 9 mit verzinkter
+                        Stahlzarge
+                        https://cs-test.bobbie.de/p/ANRI1110090@7</ram:Content>
+                </ram:IncludedNote>
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedLineTradeDelivery>
+                <ram:BilledQuantity unitCode="MMT">200000</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+        </ram:IncludedSupplyChainTradeLineItem>
+    </rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>
