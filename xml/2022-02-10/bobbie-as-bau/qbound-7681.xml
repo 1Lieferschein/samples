@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:csc="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2">
+  <cbc:UBLVersionID>2.2</cbc:UBLVersionID>
+  <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+  <cbc:ProfileID>ubl-xml-only</cbc:ProfileID>
+  <cbc:ID>1200000926-1-0</cbc:ID>
+  <cbc:IssueDate>2022-02-10</cbc:IssueDate>
+  <cbc:DespatchAdviceTypeCode>900</cbc:DespatchAdviceTypeCode>
+  <cbc:Note>Lieferkommentar Godelmann: Bitte mit Samthandschuhen, das ist schönes Pflaster</cbc:Note>
+  <cbc:Note>&lt;b&gt;Shipment Email is sent to customer.&lt;/b&gt;</cbc:Note>
+  <cbc:Note>&lt;b&gt;Shipment Email is sent to customer.&lt;/b&gt;</cbc:Note>
+  <cbc:Note>&lt;b&gt;Shipment Email is sent to customer.&lt;/b&gt;</cbc:Note>
+  <cbc:Note>&lt;b&gt;Shipment Email is sent to customer.&lt;/b&gt;</cbc:Note>
+  <cac:OrderReference>
+    <cbc:ID>1243</cbc:ID>
+    <cbc:CustomerReference>Bauvorhaben 123</cbc:CustomerReference>
+  </cac:OrderReference>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Högling</cbc:CityName>
+        <cbc:PostalZone>Germany</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Godelmann GmbH &amp; Co. KG</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Industriestraße 1</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>BY</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Wunsiedel</cbc:CityName>
+        <cbc:PostalZone>95632</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Thomas Dick</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>AS-Bau</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Bst. Lamberts AS72144</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Egerstr. 196</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+    <cac:DeliveryContact>
+      <cbc:Name>Thomas Dick</cbc:Name>
+      <cbc:Telephone>+499281 860009-0</cbc:Telephone>
+      <cbc:ElectronicMail>t.dick@as-hof.de</cbc:ElectronicMail>
+    </cac:DeliveryContact>
+  </cac:DeliveryCustomerParty>
+  <cac:BuyerCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Hof</cbc:CityName>
+        <cbc:PostalZone>95032</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Thomas Dick</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>AS-Bau Hof GmbH</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Stelzenhofstraße 28</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+    <cac:AccountingContact>
+      <cbc:Name>Thomas Dick</cbc:Name>
+      <cbc:Telephone>+499281 860009-0</cbc:Telephone>
+      <cbc:ElectronicMail>t.dick@as-hof.de</cbc:ElectronicMail>
+    </cac:AccountingContact>
+  </cac:BuyerCustomerParty>
+  <cac:SellerSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Aachen</cbc:CityName>
+        <cbc:PostalZone>52066</cbc:PostalZone>
+        <cbc:Region>NRW</cbc:Region>
+        <cac:AddressLine>
+          <cbc:Line>Innendienst</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>bobbie Deutschland Vertriebs GmbH</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Kasinostraße 44</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+    <cac:DespatchContact>
+      <cbc:Name>Innendienst</cbc:Name>
+      <cbc:Telephone>+49 89 2154015 15</cbc:Telephone>
+      <cbc:ElectronicMail>support@bobbie.de</cbc:ElectronicMail>
+    </cac:DespatchContact>
+    <cac:AccountingContact>
+      <cbc:Name>Buchhaltung</cbc:Name>
+      <cbc:Telephone>+49 89 2154015 30</cbc:Telephone>
+      <cbc:ElectronicMail>buchhaltung@bobbie.de</cbc:ElectronicMail>
+    </cac:AccountingContact>
+  </cac:SellerSupplierParty>
+  <cac:Shipment>
+    <cbc:ID>1200000926-1-0</cbc:ID>
+    <cac:Delivery>
+      <cbc:ActualDeliveryDate>2022-02-10</cbc:ActualDeliveryDate>
+      <cac:DeliveryAddress>
+        <cbc:CityName>Wunsiedel</cbc:CityName>
+        <cbc:PostalZone>95632</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Thomas Dick</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>AS-Bau</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Bst. Lamberts AS72144</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Egerstr. 196</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:DeliveryAddress>
+    </cac:Delivery>
+  </cac:Shipment>
+  <cac:DespatchLine>
+    <cbc:ID>1837</cbc:ID>
+    <cbc:DeliveredQuantity unitCode="MTK">57.6</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>3235</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Name>Großformat Pflasterstein TETRAGO nativo Anthrazit 200 x 200 x 100 mm</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>God14208@19</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID>14208</cbc:ID>
+      </cac:ManufacturersItemIdentification>
+      <cac:ItemSpecificationDocumentReference>
+        <cbc:ID>God14208@19</cbc:ID>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.bobbie.de/p/God14208@19</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:ItemSpecificationDocumentReference>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <cbc:ID>1838</cbc:ID>
+    <cbc:DeliveredQuantity unitCode="MTR">40.0</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>3236</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Name>TIEFBORD nativo Grau 100 x 300 x 1000 mm</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>God12280@19</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID>12280</cbc:ID>
+      </cac:ManufacturersItemIdentification>
+      <cac:ItemSpecificationDocumentReference>
+        <cbc:ID>God12280@19</cbc:ID>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.bobbie.de/p/God12280@18</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:ItemSpecificationDocumentReference>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>
