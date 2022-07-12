@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:csc="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2">
+  <cbc:UBLVersionID>2.2</cbc:UBLVersionID>
+  <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+  <cbc:ProfileID>ubl-xml-only</cbc:ProfileID>
+  <cbc:ID>dtrans://bobbie.de/1lieferschein/1200001208-1-0</cbc:ID>
+  <cbc:IssueDate>2022-07-12</cbc:IssueDate>
+  <cbc:DespatchAdviceTypeCode>900</cbc:DespatchAdviceTypeCode>
+  <cac:OrderReference>
+    <cbc:ID>1528</cbc:ID>
+    <cbc:SalesOrderID>4500274495</cbc:SalesOrderID>
+    <cbc:CustomerReference>Demo_Baustelle_1</cbc:CustomerReference>
+  </cac:OrderReference>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Hamburg-Mitte</cbc:CityName>
+        <cbc:PostalZone>20539</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Nord-Stein GmbH</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Müggenburger Straße 24A</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cbc:WebsiteURI>https://nord-stein.de</cbc:WebsiteURI>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Crailsheim</cbc:CityName>
+        <cbc:PostalZone>74564</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Bauleiter LW</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Procter-und-Gamble-Straße 1</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cbc:WebsiteUR>https://www.leonhard-weiss.de/</cbc:WebsiteUR>
+    </cac:Party>
+    <cac:DeliveryContact>
+      <cbc:Name>Bauleiter LW</cbc:Name>
+      <cbc:Telephone>+49 15228862278</cbc:Telephone>
+      <cbc:ElectronicMail>u.immel@leonhard-weiss.com</cbc:ElectronicMail>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value>leonhard-weiss.com</cbc:Value>
+      </cac:OtherCommunication>
+    </cac:DeliveryContact>
+  </cac:DeliveryCustomerParty>
+  <cac:BuyerCustomerParty>
+    <cbc:CustomerAssignedAccountID>20410880</cbc:CustomerAssignedAccountID>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>LEONHARD WEISS GmbH &amp; Co. KG BAUUNTERNEHMUNG</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:CityName>Satteldorf</cbc:CityName>
+        <cbc:PostalZone>74589</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Uwe Immel</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>LEONHARD WEISS GmbH &amp; Co. KG BAUUNTERNEHMUNG</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Leonhard-Weiss-Straße 2-3</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+    <cac:AccountingContact>
+      <cbc:Name>Uwe Immel</cbc:Name>
+      <cbc:Telephone>+49 7951332502</cbc:Telephone>
+      <cbc:ElectronicMail>u.immel@leonhard-weiss.com</cbc:ElectronicMail>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value>leonhard-weiss.com</cbc:Value>
+      </cac:OtherCommunication>
+    </cac:AccountingContact>
+    <cac:BuyerContact>
+      <cbc:Name>Uwe Immel</cbc:Name>
+      <cbc:Telephone>+49 7951332502</cbc:Telephone>
+      <cbc:ElectronicMail>u.immel@leonhard-weiss.com</cbc:ElectronicMail>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value>leonhard-weiss.com</cbc:Value>
+      </cac:OtherCommunication>
+    </cac:BuyerContact>
+  </cac:BuyerCustomerParty>
+  <cac:SellerSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:CityName>Aachen</cbc:CityName>
+        <cbc:PostalZone>52066</cbc:PostalZone>
+        <cbc:Region>NRW</cbc:Region>
+        <cac:AddressLine>
+          <cbc:Line>Innendienst</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>bobbie Deutschland Vertriebs GmbH</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Kasinostraße 44</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+    <cac:AccountingContact>
+      <cbc:Name>Buchhaltung</cbc:Name>
+      <cbc:Telephone>+49 89 2154015 30</cbc:Telephone>
+      <cbc:ElectronicMail>buchhaltung@bobbie.de</cbc:ElectronicMail>
+    </cac:AccountingContact>
+    <cac:SellerContact>
+      <cbc:Name>Innendienst</cbc:Name>
+      <cbc:Telephone>+49 89 2154015 15</cbc:Telephone>
+      <cbc:ElectronicMail>support@bobbie.de</cbc:ElectronicMail>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value>bobbie.de</cbc:Value>
+      </cac:OtherCommunication>
+    </cac:SellerContact>
+  </cac:SellerSupplierParty>
+  <cac:Shipment>
+    <cbc:ID>1200001208-1-0</cbc:ID>
+    <cac:Consignment>
+      <cbc:ID>1200001208-1-0</cbc:ID>
+      <cac:CarrierParty>
+        <cac:PartyName>
+          <cbc:Name>Custom Shipping Rate - Frei Bau</cbc:Name>
+        </cac:PartyName>
+        <cac:Contact>
+          <cbc:Name>Custom Shipping Rate - Frei Bau</cbc:Name>
+          <cac:OtherCommunication>
+            <cbc:Channel>dtrans</cbc:Channel>
+            <cbc:Value>schnell.de</cbc:Value>
+          </cac:OtherCommunication>
+        </cac:Contact>
+      </cac:CarrierParty>
+    </cac:Consignment>
+    <cac:Delivery>
+      <cbc:ActualDeliveryDate>2022-06-21</cbc:ActualDeliveryDate>
+      <cac:DeliveryAddress>
+        <cbc:CityName>Crailsheim</cbc:CityName>
+        <cbc:PostalZone>74564</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>Bauleiter LW</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Kreisverkehr Procter &amp; Gamble</cbc:Line>
+          <cbc:Line>Roßfelder Straße</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:DeliveryAddress>
+    </cac:Delivery>
+  </cac:Shipment>
+  <cac:DespatchLine>
+    <cbc:ID>2394</cbc:ID>
+    <cbc:DeliveredQuantity unitCode="TNE">10.0</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>00010</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Name>Granit-Kleinpflaster 9/11 cm, "sunshine-yellow", neu</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>NSG663@17</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID>663</cbc:ID>
+      </cac:ManufacturersItemIdentification>
+      <cac:BuyersItemIdentification>
+        <cbc:ID>12507</cbc:ID>
+      </cac:BuyersItemIdentification>
+      <cac:ItemSpecificationDocumentReference>
+        <cbc:ID>NSG663@17</cbc:ID>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://www.bobbie.de/p/NSG663@17</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:ItemSpecificationDocumentReference>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>
