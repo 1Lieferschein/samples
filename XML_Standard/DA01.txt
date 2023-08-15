@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+  <cbc:ProfileID>da01</cbc:ProfileID>
+  <cbc:ID>1lieferschein/18572688</cbc:ID>
+  <cbc:UUID>gf8nf31-w49f-s47s-fgg5-5e832if367</cbc:UUID>
+  <cbc:IssueDate>2020-04-01</cbc:IssueDate>
+  <cbc:Note>keine</cbc:Note>
+  <cac:Signature>
+    <cbc:ID>e37eab59-9ca1-402a-bd08-ab55e059a856</cbc:ID>
+    <cac:SignatoryParty>
+      <cbc:WebsiteURI>https://kipp.de/bergisch-gladbach.html</cbc:WebsiteURI>
+      <cac:PartyIdentification>
+        <cbc:ID></cbc:ID>
+      </cac:PartyIdentification>
+      <cac:Language>Deutsch/german</cac:Language>
+      <cac:PostalAddress>
+        <cbc:StreetName>Frankenforster Straße</cbc:StreetName>
+        <cbc:BuildingNumber>27-29</cbc:BuildingNumber>
+        <cbc:CityName>Bergisch-Gladbach</cbc:CityName>
+        <cbc:PostalZone>51427</cbc:PostalZone>
+        <cbc:CountrySubentity>Nordrhein-Westfalen</cbc:CountrySubentity>
+        <cbc:CountrySubentityCode>NW</cbc:CountrySubentityCode>
+        <cbc:TimezoneOffset>(MET) UTC +1</cbc:TimezoneOffset>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+          <cbc:Name>Deutschland</cbc:Name>
+        </cac:Country>
+        <cac:LocationCoordinate></cac:LocationCoordinate>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Kipp &amp; Grünhoff GmbH &amp; Co. KG</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:ID></cbc:ID>
+        <cbc:Name>Support</cbc:Name>
+        <cbc:Telephone>+49 (0) 2204 4007 -24</cbc:Telephone>
+        <cbc:Telefax>+49 (0) 2204 4007 -88</cbc:Telefax>
+        <cbc:ElectronicMail>info.bensberg@kipp.de</cbc:ElectronicMail>
+        <cbc:Note></cbc:Note>
+        <cac:OtherCommunication>
+          <cbc:Channel>dtrans</cbc:Channel>
+          <cbc:Value></cbc:Value>
+        </cac:OtherCommunication>
+      </cac:Contact>
+      <cac:Person>
+        <cbc:FirstName>Max</cbc:FirstName>
+        <cbc:FamilyName>Bauherr</cbc:FamilyName>
+        <cbc:Title>Herr</cbc:Title>
+        <cbc:JobTitle>Disponent</cbc:JobTitle>
+        <cbc:NationalityID>deutsch/ger</cbc:NationalityID>
+        <cbc:GenderCode>m</cbc:GenderCode>
+        <cac:Contact>
+          <cbc:Name>Ansprechpartner</cbc:Name>
+          <cbc:Telephone>02173/28639 0</cbc:Telephone>
+          <cbc:ElectronicMail>f.bauer@kipp.de</cbc:ElectronicMail>
+          <cbc:Note></cbc:Note>
+        </cac:Contact>
+      </cac:Person>
+    </cac:SignatoryParty>
+  </cac:Signature>
+  <cac:DespatchSupplierParty>
+    <cbc:WebsiteURI>https://kipp.de/bergisch-gladbach.html</cbc:WebsiteURI>
+    <cac:PartyIdentification>
+      <cbc:ID></cbc:ID>
+    </cac:PartyIdentification>
+    <cac:Language>Deutsch/german</cac:Language>
+    <cac:PostalAddress>
+      <cbc:StreetName>Frankenforster Straße</cbc:StreetName>
+      <cbc:BuildingNumber>27-29</cbc:BuildingNumber>
+      <cbc:CityName>Bergisch-Gladbach</cbc:CityName>
+      <cbc:PostalZone>51427</cbc:PostalZone>
+      <cbc:CountrySubentity>Nordrhein-Westfalen</cbc:CountrySubentity>
+      <cbc:CountrySubentityCode>NW</cbc:CountrySubentityCode>
+      <cbc:TimezoneOffset>(MET) UTC +1</cbc:TimezoneOffset>
+      <cac:Country>
+        <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        <cbc:Name>Deutschland</cbc:Name>
+      </cac:Country>
+      <cac:LocationCoordinate></cac:LocationCoordinate>
+    </cac:PostalAddress>
+    <cac:PartyLegalEntity>
+      <cbc:RegistrationName>Kipp &amp; Grünhoff GmbH &amp; Co. KG</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+    <cac:Contact>
+      <cbc:ID></cbc:ID>
+      <cbc:Name>Support</cbc:Name>
+      <cbc:Telephone>+49 (0) 2204 4007 -24</cbc:Telephone>
+      <cbc:Telefax>+49 (0) 2204 4007 -88</cbc:Telefax>
+      <cbc:ElectronicMail>info.bensberg@kipp.de</cbc:ElectronicMail>
+      <cbc:Note></cbc:Note>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value></cbc:Value>
+      </cac:OtherCommunication>
+    </cac:Contact>
+    <cac:Person>
+      <cbc:FirstName>Max</cbc:FirstName>
+      <cbc:FamilyName>Bauherr</cbc:FamilyName>
+      <cbc:Title>Herr</cbc:Title>
+      <cbc:JobTitle>Disponent</cbc:JobTitle>
+      <cbc:NationalityID>deutsch/ger</cbc:NationalityID>
+      <cbc:GenderCode>m</cbc:GenderCode>
+      <cac:Contact>
+        <cbc:Name>Ansprechpartner</cbc:Name>
+        <cbc:Telephone>02173/28639 0</cbc:Telephone>
+        <cbc:ElectronicMail>f.bauer@kipp.de</cbc:ElectronicMail>
+        <cbc:Note></cbc:Note>
+      </cac:Contact>
+    </cac:Person>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cbc:WebsiteURI>https://kipp.de/bergisch-gladbach.html</cbc:WebsiteURI>
+    <cac:PartyIdentification>
+      <cbc:ID></cbc:ID>
+    </cac:PartyIdentification>
+    <cac:Language>Deutsch/german</cac:Language>
+    <cac:PostalAddress>
+      <cbc:StreetName>Hausinger Straße</cbc:StreetName>
+      <cbc:BuildingNumber></cbc:BuildingNumber>
+      <cbc:CityName>Langenfeld</cbc:CityName>
+      <cbc:PostalZone>40736</cbc:PostalZone>
+      <cbc:CountrySubentity>Nordrhein-Westfalen</cbc:CountrySubentity>
+      <cbc:CountrySubentityCode>NW</cbc:CountrySubentityCode>
+      <cbc:TimezoneOffset>(MET) UTC +1</cbc:TimezoneOffset>
+      <cac:Country>
+        <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        <cbc:Name>Deutschland</cbc:Name>
+      </cac:Country>
+      <cac:LocationCoordinate></cac:LocationCoordinate>
+    </cac:PostalAddress>
+    <cac:PartyLegalEntity>
+      <cbc:RegistrationName>CARL LORENZ
+BAUUNTERNEHMUNG GMBH &amp; CO. KG</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+    <cac:Contact>
+      <cbc:ID></cbc:ID>
+      <cbc:Name>Support</cbc:Name>
+      <cbc:Telephone>0212 – 22312-0</cbc:Telephone>
+      <cbc:Telefax>0212 – 22312-30</cbc:Telefax>
+      <cbc:ElectronicMail>info@carl-lorenz.de</cbc:ElectronicMail>
+      <cbc:Note></cbc:Note>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value></cbc:Value>
+      </cac:OtherCommunication>
+    </cac:Contact>
+    <cac:Person>
+      <cbc:FirstName>Max</cbc:FirstName>
+      <cbc:FamilyName>Bauherr</cbc:FamilyName>
+      <cbc:Title>Herr</cbc:Title>
+      <cbc:JobTitle>Disponent</cbc:JobTitle>
+      <cbc:NationalityID>deutsch/ger</cbc:NationalityID>
+      <cbc:GenderCode>m</cbc:GenderCode>
+      <cac:Contact>
+        <cbc:Name>Ansprechpartner</cbc:Name>
+        <cbc:Telephone>02173/28639 0</cbc:Telephone>
+        <cbc:ElectronicMail>f.bauer@kipp.de</cbc:ElectronicMail>
+        <cbc:Note></cbc:Note>
+      </cac:Contact>
+    </cac:Person>
+  </cac:DeliveryCustomerParty>
+  <cac:BuyerCustomerParty>
+    <cbc:WebsiteURI>https://https://www.carl-lorenz.de/</cbc:WebsiteURI>
+    <cac:PartyIdentification>
+      <cbc:ID></cbc:ID>
+    </cac:PartyIdentification>
+    <cac:Language>Deutsch/german</cac:Language>
+    <cac:PostalAddress>
+      <cbc:StreetName>Felder Straße</cbc:StreetName>
+      <cbc:BuildingNumber>115</cbc:BuildingNumber>
+      <cbc:CityName>Solingen</cbc:CityName>
+      <cbc:PostalZone>42651</cbc:PostalZone>
+      <cbc:CountrySubentity>Nordrhein-Westfalen</cbc:CountrySubentity>
+      <cbc:CountrySubentityCode>NW</cbc:CountrySubentityCode>
+      <cbc:TimezoneOffset>(MET) UTC +1</cbc:TimezoneOffset>
+      <cac:Country>
+        <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        <cbc:Name>Deutschland</cbc:Name>
+      </cac:Country>
+      <cac:LocationCoordinate></cac:LocationCoordinate>
+    </cac:PostalAddress>
+    <cac:PartyLegalEntity>
+      <cbc:RegistrationName>CARL LORENZ
+BAUUNTERNEHMUNG GMBH &amp; CO. KG</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+    <cac:Contact>
+      <cbc:ID></cbc:ID>
+      <cbc:Name>Support</cbc:Name>
+      <cbc:Telephone>0212 – 22312-0</cbc:Telephone>
+      <cbc:Telefax> 0212 – 22312-30</cbc:Telefax>
+      <cbc:ElectronicMail>info@carl-lorenz.de</cbc:ElectronicMail>
+      <cbc:Note></cbc:Note>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value></cbc:Value>
+      </cac:OtherCommunication>
+    </cac:Contact>
+    <cac:Person>
+      <cbc:FirstName>Maxine</cbc:FirstName>
+      <cbc:FamilyName>Müller</cbc:FamilyName>
+      <cbc:Title>Frau</cbc:Title>
+      <cbc:JobTitle>Wareneingang</cbc:JobTitle>
+      <cbc:NationalityID>deutsch/ger</cbc:NationalityID>
+      <cbc:GenderCode>f</cbc:GenderCode>
+      <cac:Contact>
+        <cbc:Name>Ansprechpartnerin</cbc:Name>
+        <cbc:Telephone>0212 – 22312-0</cbc:Telephone>
+        <cbc:ElectronicMail>m.mueller@carl-lorenz.de</cbc:ElectronicMail>
+        <cbc:Note></cbc:Note>
+      </cac:Contact>
+    </cac:Person>
+  </cac:BuyerCustomerParty>
+  <cac:SellerSupplierParty>
+    <cbc:WebsiteURI>https://kipp.de/</cbc:WebsiteURI>
+    <cac:PartyIdentification>
+      <cbc:ID></cbc:ID>
+    </cac:PartyIdentification>
+    <cac:Language>Deutsch/german</cac:Language>
+    <cac:PostalAddress>
+      <cbc:StreetName>Heinrichstraße</cbc:StreetName>
+      <cbc:BuildingNumber>20</cbc:BuildingNumber>
+      <cbc:CityName>Leverkusen</cbc:CityName>
+      <cbc:PostalZone>51373</cbc:PostalZone>
+      <cbc:CountrySubentity>Nordrhein-Westfalen</cbc:CountrySubentity>
+      <cbc:CountrySubentityCode>NW</cbc:CountrySubentityCode>
+      <cbc:TimezoneOffset>(MET) UTC +1</cbc:TimezoneOffset>
+      <cac:Country>
+        <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        <cbc:Name>Deutschland</cbc:Name>
+      </cac:Country>
+      <cac:LocationCoordinate></cac:LocationCoordinate>
+    </cac:PostalAddress>
+    <cac:PartyLegalEntity>
+      <cbc:RegistrationName>Kipp &amp; Grünhoff GmbH &amp; Co. KG</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+    <cac:Contact>
+      <cbc:ID></cbc:ID>
+      <cbc:Name>Support</cbc:Name>
+      <cbc:Telephone>02204 4007 -24</cbc:Telephone>
+      <cbc:Telefax>02204 4007 -88</cbc:Telefax>
+      <cbc:ElectronicMail>info@kipp.de</cbc:ElectronicMail>
+      <cbc:Note></cbc:Note>
+      <cac:OtherCommunication>
+        <cbc:Channel>dtrans</cbc:Channel>
+        <cbc:Value></cbc:Value>
+      </cac:OtherCommunication>
+    </cac:Contact>
+    <cac:Person>
+      <cbc:FirstName>Fabian</cbc:FirstName>
+      <cbc:FamilyName>Bauer</cbc:FamilyName>
+      <cbc:Title>Herr</cbc:Title>
+      <cbc:JobTitle>Disponent</cbc:JobTitle>
+      <cbc:NationalityID>deutsch/ger</cbc:NationalityID>
+      <cbc:GenderCode>m</cbc:GenderCode>
+      <cac:Contact>
+        <cbc:Name>Ansprechpartner</cbc:Name>
+        <cbc:Telephone>02173/28639 0</cbc:Telephone>
+        <cbc:ElectronicMail>f.bauer@kipp.de</cbc:ElectronicMail>
+        <cbc:Note></cbc:Note>
+      </cac:Contact>
+    </cac:Person>
+  </cac:SellerSupplierParty>
+  <cac:Shipment>
+    <cbc:ID></cbc:ID>
+    <cac:Consignment>
+      <cbc:ID></cbc:ID>
+      <cac:ConsigneeParty></cac:ConsigneeParty>
+      <cac:CarrierParty></cac:CarrierParty>
+    </cac:Consignment>
+  </cac:Shipment>
+  <cac:DespatchLine>
+    <cbc:ID></cbc:ID>
+    <cac:OrderLineReference>
+      <cbc:LineID></cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item></cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>
