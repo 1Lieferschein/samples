@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
   <cbc:ProfileID>da01</cbc:ProfileID>
@@ -134,7 +134,6 @@
 BAUUNTERNEHMUNG GMBH &amp; CO. KG</cbc:RegistrationName>
     </cac:PartyLegalEntity>
     <cac:Contact>
-      <cbc:ID></cbc:ID>
       <cbc:Name>Support</cbc:Name>
       <cbc:Telephone>0212 – 22312-0</cbc:Telephone>
       <cbc:Telefax>0212 – 22312-30</cbc:Telefax>
@@ -264,16 +263,71 @@ BAUUNTERNEHMUNG GMBH &amp; CO. KG</cbc:RegistrationName>
   <cac:Shipment>
     <cbc:ID></cbc:ID>
     <cac:Consignment>
-      <cbc:ID></cbc:ID>
-      <cac:ConsigneeParty></cac:ConsigneeParty>
-      <cac:CarrierParty></cac:CarrierParty>
+      <cbc:ID>1200002376-1-0</cbc:ID>
+      <cac:CarrierParty>
+   <cac:PartyLegalEntity>
+      <cbc:RegistrationName>Koala Logistics GmbH</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+        <cac:PostalAddress>
+          <cbc:StreetName>Lise-Meitner-Straße</cbc:StreetName>
+          <cbc:BuildingNumber>22</cbc:BuildingNumber>
+          <cbc:CityName>Oberensingen Stadt Nürtingen</cbc:CityName>
+          <cbc:PostalZone>72622</cbc:PostalZone>
+          <cbc:CountrySubentity>Baden-Württemberg</cbc:CountrySubentity>
+          <cbc:CountrySubentityCode>BW</cbc:CountrySubentityCode>
+          <cbc:TimezoneOffset>+1:00</cbc:TimezoneOffset>
+          <cac:Country>
+            <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+            <cbc:Name>Germany</cbc:Name>
+          </cac:Country>
+        </cac:PostalAddress>
+      </cac:CarrierParty>
     </cac:Consignment>
+    <cac:Delivery>
+      <cbc:ActualDeliveryDate>2023-03-27</cbc:ActualDeliveryDate>
+   <cbc:Quantity/>
+   <cbc:ActualDeliveryDate/>
+   <cbc:ActualDeliveryTime/>
+      <cac:DeliveryAddress>
+        <cbc:StreetName>Roonstraße</cbc:StreetName>
+        <cbc:BuildingNumber>97a</cbc:BuildingNumber>
+        <cbc:Description>Fracht bitte nicht in der Zufahrt abladen.</cbc:Description>
+        <cbc:CityName>Aachen</cbc:CityName>
+        <cbc:PostalZone>52070</cbc:PostalZone>
+        <cbc:CountrySubentity>Nordrhein-Westfalen</cbc:CountrySubentity>
+        <cbc:CountrySubentityCode>NRW</cbc:CountrySubentityCode>
+        <cbc:TimezoneOffset>+1:00</cbc:TimezoneOffset>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+          <cbc:Name>Germany</cbc:Name>
+        </cac:Country>
+      </cac:DeliveryAddress>
+    </cac:Delivery>
   </cac:Shipment>
   <cac:DespatchLine>
-    <cbc:ID></cbc:ID>
+    <cbc:ID />
+    <cbc:DeliveredQuantity>2</cbc:DeliveredQuantity>
     <cac:OrderLineReference>
-      <cbc:LineID></cbc:LineID>
+      <cbc:LineID />
     </cac:OrderLineReference>
-    <cac:Item></cac:Item>
+    <cac:Item>
+      <cbc:Description>Gewebeband Silber, reißfest, Rolle</cbc:Description>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID />
+        <cac:MeasurementDimension>
+          <cbc:AttributeID />
+          <cbc:Measure>50mm</cbc:Measure>
+          <cbc:Description>Breite</cbc:Description>
+        </cac:MeasurementDimension>
+      </cac:ManufacturersItemIdentification>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID />
+        <cac:MeasurementDimension>
+          <cbc:AttributeID />
+          <cbc:Measure>50 mtr</cbc:Measure>
+          <cbc:Description>Rollenkänge</cbc:Description>
+        </cac:MeasurementDimension>
+      </cac:ManufacturersItemIdentification>
+    </cac:Item>
   </cac:DespatchLine>
 </DespatchAdvice>
