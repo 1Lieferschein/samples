@@ -264,10 +264,32 @@ BAUUNTERNEHMUNG GMBH &amp; CO. KG</cbc:RegistrationName>
     <cbc:ID></cbc:ID>
     <cac:Consignment>
       <cbc:ID>1200002376-1-0</cbc:ID>
-      <cac:CarrierParty>
-   <cac:PartyLegalEntity>
-      <cbc:RegistrationName>Koala Logistics GmbH</cbc:RegistrationName>
+<cac:ConsigneeParty>
+    <cac:PostalAddress>
+     <cbc:StreetName/>
+     <cbc:BuildingNumber/>
+     <cbc:CityName/>
+     <cbc:PostalZone/>
+     <cbc:CountrySubentity/>
+     <cbc:CountrySubentityCode/>
+     <cbc:TimezoneOffset/>
+     <cac:Country>
+      <cbc:IdentificationCode/>
+      <cbc:Name/>
+     </cac:Country>
+    </cac:PostalAddress>
+    <cac:PartyLegalEntity>
+     <cbc:RegistrationName/>
     </cac:PartyLegalEntity>
+   </cac:ConsigneeParty>
+    </cac:Consignment>
+<cac:ShipmentStage>
+   <cbc:EstimatedDeliveryDate/>
+   <cbc:EstimatedDeliveryTime/>
+   <cac:CarrierParty>
+        <cac:PartyLegalEntity>
+          <cbc:RegistrationName>Koala Logistics GmbH</cbc:RegistrationName>
+        </cac:PartyLegalEntity>
         <cac:PostalAddress>
           <cbc:StreetName>Lise-Meitner-Straße</cbc:StreetName>
           <cbc:BuildingNumber>22</cbc:BuildingNumber>
@@ -282,12 +304,18 @@ BAUUNTERNEHMUNG GMBH &amp; CO. KG</cbc:RegistrationName>
           </cac:Country>
         </cac:PostalAddress>
       </cac:CarrierParty>
-    </cac:Consignment>
+   <cac:ReceiptTransportEvent/>
+   <cac:DriverPerson>
+    <cbc:FirstName/>
+    <cbc:FamilyName/>
+    <cbc:NationalityID/>
+    <cac:Contact>
+     <cbc:Name/>
+     <cbc:Telephone/>
+    </cac:Contact>
+   </cac:DriverPerson>
+  </cac:ShipmentStage>
     <cac:Delivery>
-      <cbc:ActualDeliveryDate>2023-03-27</cbc:ActualDeliveryDate>
-   <cbc:Quantity/>
-   <cbc:ActualDeliveryDate/>
-   <cbc:ActualDeliveryTime/>
       <cac:DeliveryAddress>
         <cbc:StreetName>Roonstraße</cbc:StreetName>
         <cbc:BuildingNumber>97a</cbc:BuildingNumber>
