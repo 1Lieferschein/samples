@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:csc="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2">
+  <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+  <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+  <cbc:ProfileID>DEFAULT</cbc:ProfileID>
+  <cbc:ID>1LS_B48909D3</cbc:ID>
+  <cbc:UUID>d4ff49a7-9627-48d7-902a-4bfec5a45083</cbc:UUID>
+  <cbc:IssueDate>2025-02-05</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
+    <cbc:ReasonCode>DA_CREATION_DRIVER</cbc:ReasonCode>
+    <cbc:ValidationDate>2025-02-05</cbc:ValidationDate>
+    <cbc:ValidationTime>03:25:50</cbc:ValidationTime>
+    <cbc:ValidatorID>bobbie_1ls_dummy_gen</cbc:ValidatorID>
+    <cac:SignatoryParty>
+      <cac:PostalAddress>
+        <cac:AddressLine>
+          <cbc:Line>Marlies-Jansen-Straße 49</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>71318 Salzwedel</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Deutschland</cbc:Line>
+        </cac:AddressLine>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Schuster</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Elise Neubauer</cbc:Name>
+        <cbc:Telephone>+490221 894 6016</cbc:Telephone>
+        <cbc:Telefax>+49(04349) 6413844</cbc:Telefax>
+        <cbc:ElectronicMail>elise.neubauer@example.org</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:SignatoryParty>
+  </cac:Signature>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cac:AddressLine>
+          <cbc:Line>Noackallee 46b</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>12464 Eckernförde</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Deutschland</cbc:Line>
+        </cac:AddressLine>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Heuer</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Dieter Ludwig</cbc:Name>
+        <cbc:Telephone>+49 (04662) 2285920</cbc:Telephone>
+        <cbc:Telefax>+49 (0541) 9872709</cbc:Telefax>
+        <cbc:ElectronicMail>dieter.ludwig@example.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+    <cac:DespatchContact>
+      <cbc:Name>Ida Knoll</cbc:Name>
+      <cbc:Telephone>+49(036960) 9488259</cbc:Telephone>
+      <cbc:Telefax>+49 2677 013 7775</cbc:Telefax>
+      <cbc:ElectronicMail>ida.knoll@example.org</cbc:ElectronicMail>
+    </cac:DespatchContact>
+    <cac:AccountingContact>
+      <cbc:Name>Marija Reiter</cbc:Name>
+      <cbc:Telephone>+497523795 8947</cbc:Telephone>
+      <cbc:Telefax>+49 (02979) 171 3203</cbc:Telefax>
+      <cbc:ElectronicMail>marija.reiter@example.org</cbc:ElectronicMail>
+    </cac:AccountingContact>
+    <cac:SellerContact>
+      <cbc:Name>Trude Singer</cbc:Name>
+      <cbc:Telephone>+49 9736 7728549</cbc:Telephone>
+      <cbc:Telefax>+49 (09676) 7379609</cbc:Telefax>
+      <cbc:ElectronicMail>trude.singer@example.org</cbc:ElectronicMail>
+    </cac:SellerContact>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cac:AddressLine>
+          <cbc:Line>Sunnuhamar 304</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>946 Bíldudalur</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Island</cbc:Line>
+        </cac:AddressLine>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Ósland og Steinmars</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Eygerður Smyrills</cbc:Name>
+        <cbc:Telephone>+49104 4058</cbc:Telephone>
+        <cbc:Telefax>+490404773</cbc:Telefax>
+        <cbc:ElectronicMail>eygerður.smyrills@example.org</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+    <cac:DeliveryContact>
+      <cbc:Name>Annarr Óttarrs</cbc:Name>
+      <cbc:Telephone>+49881 3232</cbc:Telephone>
+      <cbc:Telefax>+49505 8109</cbc:Telefax>
+      <cbc:ElectronicMail>annarr.Óttarrs@example.net</cbc:ElectronicMail>
+    </cac:DeliveryContact>
+    <cac:AccountingContact>
+      <cbc:Name>Borgný Tandris</cbc:Name>
+      <cbc:Telephone>+49395 8799</cbc:Telephone>
+      <cbc:Telefax>+499773649</cbc:Telefax>
+      <cbc:ElectronicMail>borgný.tandris@example.net</cbc:ElectronicMail>
+    </cac:AccountingContact>
+    <cac:BuyerContact>
+      <cbc:Name>Hjálmrós Tyrfings</cbc:Name>
+      <cbc:Telephone>+49438 4201</cbc:Telephone>
+      <cbc:Telefax>+498677713</cbc:Telefax>
+      <cbc:ElectronicMail>hjálmrós.tyrfings@example.com</cbc:ElectronicMail>
+    </cac:BuyerContact>
+  </cac:DeliveryCustomerParty>
+  <cac:BuyerCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cac:AddressLine>
+          <cbc:Line>Teresa-Christ-Platz 6</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>94532 Krefeld</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Deutschland</cbc:Line>
+        </cac:AddressLine>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Esser</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Marta Scholz</cbc:Name>
+        <cbc:Telephone>+49 971 831 0789</cbc:Telephone>
+        <cbc:Telefax>+499543901 1808</cbc:Telefax>
+        <cbc:ElectronicMail>marta.scholz@example.org</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+    <cac:DeliveryContact>
+      <cbc:Name>Esther Pape</cbc:Name>
+      <cbc:Telephone>+49(069) 292 4657</cbc:Telephone>
+      <cbc:Telefax>+49 591 9664436</cbc:Telefax>
+      <cbc:ElectronicMail>esther.pape@example.com</cbc:ElectronicMail>
+    </cac:DeliveryContact>
+    <cac:AccountingContact>
+      <cbc:Name>Pietro Menzel</cbc:Name>
+      <cbc:Telephone>+4905188 5999692</cbc:Telephone>
+      <cbc:Telefax>+4908284 8613011</cbc:Telefax>
+      <cbc:ElectronicMail>pietro.menzel@example.net</cbc:ElectronicMail>
+    </cac:AccountingContact>
+    <cac:BuyerContact>
+      <cbc:Name>Esther Köster</cbc:Name>
+      <cbc:Telephone>+4908396 824 3229</cbc:Telephone>
+      <cbc:Telefax>+49(033433) 495 5777</cbc:Telefax>
+      <cbc:ElectronicMail>esther.köster@example.net</cbc:ElectronicMail>
+    </cac:BuyerContact>
+  </cac:BuyerCustomerParty>
+  <cac:SellerSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cac:AddressLine>
+          <cbc:Line>Denise-Kramer-Weg 8/1</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>10980 Gotha</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Deutschland</cbc:Line>
+        </cac:AddressLine>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Büttner</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Hellmut Fritsch</cbc:Name>
+        <cbc:Telephone>+49(0365) 509 0979</cbc:Telephone>
+        <cbc:Telefax>+490335 787 9529</cbc:Telefax>
+        <cbc:ElectronicMail>hellmut.fritsch@example.org</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+    <cac:DespatchContact>
+      <cbc:Name>Fabian Winter</cbc:Name>
+      <cbc:Telephone>+49 8704 710 1519</cbc:Telephone>
+      <cbc:Telefax>+49 (04421) 9235668</cbc:Telefax>
+      <cbc:ElectronicMail>fabian.winter@example.net</cbc:ElectronicMail>
+    </cac:DespatchContact>
+    <cac:AccountingContact>
+      <cbc:Name>Sibylle Wolff</cbc:Name>
+      <cbc:Telephone>+490851 2666969</cbc:Telephone>
+      <cbc:Telefax>+49 (03606) 541 3339</cbc:Telefax>
+      <cbc:ElectronicMail>sibylle.wolff@example.net</cbc:ElectronicMail>
+    </cac:AccountingContact>
+    <cac:SellerContact>
+      <cbc:Name>Danuta Hein</cbc:Name>
+      <cbc:Telephone>+49 6806 646 0845</cbc:Telephone>
+      <cbc:Telefax>+49(06197) 731 6721</cbc:Telefax>
+      <cbc:ElectronicMail>danuta.hein@example.org</cbc:ElectronicMail>
+    </cac:SellerContact>
+  </cac:SellerSupplierParty>
+  <cac:OriginatorCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cac:AddressLine>
+          <cbc:Line>Darius-Baumgartner-Straße 3b</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>62154 Geldern</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Deutschland</cbc:Line>
+        </cac:AddressLine>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Bär</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Trude Blank</cbc:Name>
+        <cbc:Telephone>+49 6162 3619291</cbc:Telephone>
+        <cbc:Telefax>+4906585 111 0620</cbc:Telefax>
+        <cbc:ElectronicMail>trude.blank@example.com</cbc:ElectronicMail>
+        <cac:OtherCommunication>
+          <cbc:Channel>dtrans</cbc:Channel>
+          <cbc:Value>dev.dtrans.bobbie.de</cbc:Value>
+        </cac:OtherCommunication>
+      </cac:Contact>
+    </cac:Party>
+    <cac:DeliveryContact>
+      <cbc:Name>Niels Jansen</cbc:Name>
+      <cbc:Telephone>+49 961 670 2040</cbc:Telephone>
+      <cbc:Telefax>+49345367 1966</cbc:Telefax>
+      <cbc:ElectronicMail>niels.jansen@example.net</cbc:ElectronicMail>
+    </cac:DeliveryContact>
+    <cac:AccountingContact>
+      <cbc:Name>Heiderose Vogel</cbc:Name>
+      <cbc:Telephone>+490441 931 8342</cbc:Telephone>
+      <cbc:Telefax>+49 5907 2892819</cbc:Telefax>
+      <cbc:ElectronicMail>heiderose.vogel@example.org</cbc:ElectronicMail>
+    </cac:AccountingContact>
+    <cac:BuyerContact>
+      <cbc:Name>Wilhelm Heck</cbc:Name>
+      <cbc:Telephone>+49 621 1091206</cbc:Telephone>
+      <cbc:Telefax>+492114877513</cbc:Telefax>
+      <cbc:ElectronicMail>wilhelm.heck@example.com</cbc:ElectronicMail>
+    </cac:BuyerContact>
+  </cac:OriginatorCustomerParty>
+  <cac:Shipment>
+    <cac:ShipmentStage>
+      <cac:DriverPerson>
+        <cbc:FirstName>Hendrik</cbc:FirstName>
+        <cbc:FamilyName>Erdmann</cbc:FamilyName>
+        <cac:Contact>
+          <cbc:Name>Hendrik Erdmann</cbc:Name>
+          <cbc:Telephone>+4904508 680 5522</cbc:Telephone>
+          <cbc:Telefax>+4904409 8312307</cbc:Telefax>
+          <cbc:ElectronicMail>hendrik.erdmann@example.com</cbc:ElectronicMail>
+        </cac:Contact>
+      </cac:DriverPerson>
+    </cac:ShipmentStage>
+    <cac:Delivery>
+      <cac:DeliveryLocation>
+        <cac:Address>
+          <cac:AddressLine>
+            <cbc:Line>Brandring 144</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>07069 Minden</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>Deutschland</cbc:Line>
+          </cac:AddressLine>
+        </cac:Address>
+      </cac:DeliveryLocation>
+      <cac:CarrierParty>
+        <cac:PostalAddress>
+          <cac:AddressLine>
+            <cbc:Line>Merzallee 5a</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>90957 Eisenhüttenstadt</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>Deutschland</cbc:Line>
+          </cac:AddressLine>
+        </cac:PostalAddress>
+        <cac:PartyLegalEntity>
+          <cbc:RegistrationName>Fröhlich</cbc:RegistrationName>
+        </cac:PartyLegalEntity>
+        <cac:Contact>
+          <cbc:Name>Elena Rohde</cbc:Name>
+          <cbc:Telephone>+49 2179 0462787</cbc:Telephone>
+          <cbc:Telefax>+49 35950 3697494</cbc:Telefax>
+          <cbc:ElectronicMail>elena.rohde@example.org</cbc:ElectronicMail>
+        </cac:Contact>
+      </cac:CarrierParty>
+    </cac:Delivery>
+  </cac:Shipment>
+  <cac:DespatchLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:DeliveredQuantity unitCode="C62">8785.0</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>3245305c-3c2b-493d-9952-af33337355f1</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:PackQuantity>14.0</cbc:PackQuantity>
+      <cbc:Name>ipsam</cbc:Name>
+      <cbc:BrandName>placeat</cbc:BrandName>
+      <cbc:ModelName>officia</cbc:ModelName>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID>Born84275</cbc:ID>
+      </cac:ManufacturersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:DeliveredQuantity unitCode="C62">3665.0</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>49899db8-5dc5-4b1f-8d06-3e4d3c88bb07</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:PackQuantity>52.0</cbc:PackQuantity>
+      <cbc:Name>aut</cbc:Name>
+      <cbc:BrandName>et</cbc:BrandName>
+      <cbc:ModelName>quo</cbc:ModelName>
+      <cac:ManufacturersItemIdentification>
+        <cbc:ID>Rieger15488</cbc:ID>
+      </cac:ManufacturersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>

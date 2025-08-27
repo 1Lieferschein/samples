@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?><ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+        <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+        <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+        <cbc:ProfileID>DEFAULT</cbc:ProfileID>
+        <cbc:ID>1LS_96D108C7</cbc:ID>
+        <cbc:UUID>b46f4968-a8e7-4e1f-84bc-c560e7106ef8</cbc:UUID>
+        <cbc:IssueDate>2025-06-17Z</cbc:IssueDate>
+        <cac:Signature>
+            <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
+            <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
+            <cbc:ValidationDate>2025-06-17Z</cbc:ValidationDate>
+            <cbc:ValidationTime>06:51:02Z</cbc:ValidationTime>
+            <cbc:ValidatorID>1ls_bobbie_android:1.0.16</cbc:ValidatorID>
+            <cac:SignatoryParty>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Panda Logistiks GmbH</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Berliner Str. 127</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>01265 Dresden</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Sachsen</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>Panda Logistiks GmbH</cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                    <cbc:Name>Larry Rodriguez</cbc:Name>
+                    <cbc:Telephone>0381 4215 23</cbc:Telephone>
+                    <cbc:ElectronicMail>driver@bobbie.de</cbc:ElectronicMail>
+                    <cac:OtherCommunication>
+                        <cbc:Channel>Mobile</cbc:Channel>
+                        <cbc:Value>+49 035 130 55</cbc:Value>
+                    </cac:OtherCommunication>
+                </cac:Contact>
+                <cac:Person>
+                    <cbc:FirstName>Larry</cbc:FirstName>
+                    <cbc:FamilyName>Rodriguez</cbc:FamilyName>
+                    <cbc:JobTitle>Fahrer</cbc:JobTitle>
+                </cac:Person>
+            </cac:SignatoryParty>
+            <cac:OriginalDocumentReference>
+                <cbc:ID>1lieferschein_predecessor</cbc:ID>
+                <cbc:UUID>44abc682-e2c6-4305-8f3f-1809cb0a2d16</cbc:UUID>
+                <cbc:DocumentTypeCode>XML_1LS_DespatchAdvice</cbc:DocumentTypeCode>
+            </cac:OriginalDocumentReference>
+        </cac:Signature>
+        <cac:DeliveryCustomerParty>
+            <cac:Party>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Eberhardtstraße 1</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>68633 Hanau</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>Falk</cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                    <cbc:Name>Constanze Reimer</cbc:Name>
+                    <cbc:Telephone>+49(0751) 7147998</cbc:Telephone>
+                    <cbc:Telefax>+49(06396) 591 3659</cbc:Telefax>
+                    <cbc:ElectronicMail>constanze.reimer@example.org</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+            <cac:DeliveryContact>
+                <cbc:Name>Hans-Günter Eder</cbc:Name>
+                <cbc:Telephone>+49 (02148) 280 4576</cbc:Telephone>
+                <cbc:Telefax>+49811228 6771</cbc:Telefax>
+                <cbc:ElectronicMail>hans-günter.eder@example.org</cbc:ElectronicMail>
+            </cac:DeliveryContact>
+            <cac:AccountingContact>
+                <cbc:Name>Emine Altmann</cbc:Name>
+                <cbc:Telephone>+492417745772</cbc:Telephone>
+                <cbc:Telefax>+490741 1719176</cbc:Telefax>
+                <cbc:ElectronicMail>emine.altmann@example.org</cbc:ElectronicMail>
+            </cac:AccountingContact>
+            <cac:BuyerContact>
+                <cbc:Name>Luzie Schubert</cbc:Name>
+                <cbc:Telephone>+49(06529) 273 7070</cbc:Telephone>
+                <cbc:Telefax>+49 3881 6283218</cbc:Telefax>
+                <cbc:ElectronicMail>luzie.schubert@example.org</cbc:ElectronicMail>
+            </cac:BuyerContact>
+        </cac:DeliveryCustomerParty>
+        <cac:DespatchSupplierParty>
+            <cac:Party>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Strasserplatz 7</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>1110 Zistersdorf</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Österreich</cbc:Line>
+                    </cac:AddressLine>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>Hinterleitner</cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                    <cbc:Name>Simone Hinteregger</cbc:Name>
+                    <cbc:Telephone>+43 3828 7938</cbc:Telephone>
+                    <cbc:Telefax>+43 4514 7284-87</cbc:Telefax>
+                    <cbc:ElectronicMail>simone.hinteregger@example.org</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+            <cac:DespatchContact>
+                <cbc:Name>Alina Auer</cbc:Name>
+                <cbc:Telephone>+43 9363 0541</cbc:Telephone>
+                <cbc:Telefax>+490650 6786743</cbc:Telefax>
+                <cbc:ElectronicMail>alina.auer@example.org</cbc:ElectronicMail>
+            </cac:DespatchContact>
+            <cac:AccountingContact>
+                <cbc:Name>Amelie Graf</cbc:Name>
+                <cbc:Telephone>+490660 4852007</cbc:Telephone>
+                <cbc:Telefax>+490677 4838912</cbc:Telefax>
+                <cbc:ElectronicMail>amelie.graf@example.org</cbc:ElectronicMail>
+            </cac:AccountingContact>
+            <cac:SellerContact>
+                <cbc:Name>Martina Baier</cbc:Name>
+                <cbc:Telephone>+490650 8124214</cbc:Telephone>
+                <cbc:Telefax>+490664 3862406</cbc:Telefax>
+                <cbc:ElectronicMail>martina.baier@example.org</cbc:ElectronicMail>
+            </cac:SellerContact>
+        </cac:DespatchSupplierParty>
+        <cac:BuyerCustomerParty>
+            <cac:Party>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Marxallee 56</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>69748 Wermelskirchen</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>Weidner GmbH &amp; Co. KG</cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                    <cbc:Name>Hubert Kühne</cbc:Name>
+                    <cbc:Telephone>+49 38276 4201946</cbc:Telephone>
+                    <cbc:Telefax>+49(08620) 875 5012</cbc:Telefax>
+                    <cbc:ElectronicMail>hubert.kühne@example.com</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+            <cac:DeliveryContact>
+                <cbc:Name>Ralf Kruse</cbc:Name>
+                <cbc:Telephone>+4902760 4405240</cbc:Telephone>
+                <cbc:Telefax>+49 (0911) 922 9740</cbc:Telefax>
+                <cbc:ElectronicMail>ralf.kruse@example.net</cbc:ElectronicMail>
+            </cac:DeliveryContact>
+            <cac:AccountingContact>
+                <cbc:Name>Leo Funke</cbc:Name>
+                <cbc:Telephone>+49(0481) 9938874</cbc:Telephone>
+                <cbc:Telefax>+49 (0355) 8388051</cbc:Telefax>
+                <cbc:ElectronicMail>leo.funke@example.org</cbc:ElectronicMail>
+            </cac:AccountingContact>
+            <cac:BuyerContact>
+                <cbc:Name>Ingo Wiedemann</cbc:Name>
+                <cbc:Telephone>+49 (0491) 1090425</cbc:Telephone>
+                <cbc:Telefax>+4922861508196</cbc:Telefax>
+                <cbc:ElectronicMail>ingo.wiedemann@example.net</cbc:ElectronicMail>
+            </cac:BuyerContact>
+        </cac:BuyerCustomerParty>
+        <cac:SellerSupplierParty>
+            <cac:Party>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Alex-Auer-Gasse 299</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>51002 Korbach</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>Köster</cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                    <cbc:Name>Ahmed Schütze</cbc:Name>
+                    <cbc:Telephone>+49 (07637) 551 6438</cbc:Telephone>
+                    <cbc:Telefax>+49 (05151) 8683669</cbc:Telefax>
+                    <cbc:ElectronicMail>ahmed.schütze@example.com</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+            <cac:DespatchContact>
+                <cbc:Name>Ludmilla Gottschalk</cbc:Name>
+                <cbc:Telephone>+49 (0791) 340 7420</cbc:Telephone>
+                <cbc:Telefax>+495436430 9511</cbc:Telefax>
+                <cbc:ElectronicMail>ludmilla.gottschalk@example.net</cbc:ElectronicMail>
+            </cac:DespatchContact>
+            <cac:AccountingContact>
+                <cbc:Name>Philip Körner</cbc:Name>
+                <cbc:Telephone>+4986289476273</cbc:Telephone>
+                <cbc:Telefax>+490671 273 9223</cbc:Telefax>
+                <cbc:ElectronicMail>philip.körner@example.com</cbc:ElectronicMail>
+            </cac:AccountingContact>
+            <cac:SellerContact>
+                <cbc:Name>Edeltraut Appel</cbc:Name>
+                <cbc:Telephone>+49 621 6722455</cbc:Telephone>
+                <cbc:Telefax>+4903986 6368447</cbc:Telefax>
+                <cbc:ElectronicMail>edeltraut.appel@example.net</cbc:ElectronicMail>
+            </cac:SellerContact>
+        </cac:SellerSupplierParty>
+        <cac:Shipment>
+            <cac:ShipmentStage>
+                <cac:DriverPerson>
+                    <cbc:FirstName>Gesine</cbc:FirstName>
+                    <cbc:FamilyName>Otto</cbc:FamilyName>
+                    <cac:Contact>
+                        <cbc:Name>Gesine Otto</cbc:Name>
+                        <cbc:Telephone>+49 (0521) 6055066</cbc:Telephone>
+                        <cbc:Telefax>+492811226919</cbc:Telefax>
+                        <cbc:ElectronicMail>gesine.otto@example.net</cbc:ElectronicMail>
+                    </cac:Contact>
+                </cac:DriverPerson>
+            </cac:ShipmentStage>
+            <cac:Delivery>
+                <cac:DeliveryLocation>
+                    <cac:Address>
+                        <cac:AddressLine>
+                            <cbc:Line>Vladimir-Bachmann-Allee 95a</cbc:Line>
+                        </cac:AddressLine>
+                        <cac:AddressLine>
+                            <cbc:Line>75974 Bergisch Gladbach</cbc:Line>
+                        </cac:AddressLine>
+                        <cac:AddressLine>
+                            <cbc:Line>Deutschland</cbc:Line>
+                        </cac:AddressLine>
+                    </cac:Address>
+                </cac:DeliveryLocation>
+                <cac:EstimatedDeliveryPeriod>
+                    <cbc:StartDate>2025-06-11Z</cbc:StartDate>
+                    <cbc:StartTime>16:00:00Z</cbc:StartTime>
+                </cac:EstimatedDeliveryPeriod>
+                <cac:CarrierParty>
+                    <cac:PostalAddress>
+                        <cac:AddressLine>
+                            <cbc:Line>Arnoldstraße 5/8</cbc:Line>
+                        </cac:AddressLine>
+                        <cac:AddressLine>
+                            <cbc:Line>66396 Dortmund</cbc:Line>
+                        </cac:AddressLine>
+                        <cac:AddressLine>
+                            <cbc:Line>Deutschland</cbc:Line>
+                        </cac:AddressLine>
+                    </cac:PostalAddress>
+                    <cac:PartyLegalEntity>
+                        <cbc:RegistrationName>Heinz Wagner AG</cbc:RegistrationName>
+                    </cac:PartyLegalEntity>
+                    <cac:Contact>
+                        <cbc:Name>Gernot Hartung</cbc:Name>
+                        <cbc:Telephone>+49 831 5011280</cbc:Telephone>
+                        <cbc:Telefax>+49 2979 773 5541</cbc:Telefax>
+                        <cbc:ElectronicMail>gernot.hartung@example.org</cbc:ElectronicMail>
+                    </cac:Contact>
+                </cac:CarrierParty>
+            </cac:Delivery>
+        </cac:Shipment>
+        <cac:ReceiptLine>
+            <cbc:ID>1</cbc:ID>
+            <cbc:ReceivedQuantity>0.0</cbc:ReceivedQuantity>
+            <cac:Item>
+                <cbc:PackQuantity>10.0</cbc:PackQuantity>
+                <cbc:Name>aut</cbc:Name>
+                <cbc:BrandName>occaecati</cbc:BrandName>
+                <cbc:ModelName>aut</cbc:ModelName>
+                <cac:ManufacturersItemIdentification>
+                    <cbc:ID>Freitag KG80315</cbc:ID>
+                </cac:ManufacturersItemIdentification>
+            </cac:Item>
+        </cac:ReceiptLine>
+        <cac:ReceiptLine>
+            <cbc:ID>2</cbc:ID>
+            <cbc:ReceivedQuantity>0.0</cbc:ReceivedQuantity>
+            <cac:Item>
+                <cbc:PackQuantity>16.0</cbc:PackQuantity>
+                <cbc:Name>voluptate</cbc:Name>
+                <cbc:BrandName>voluptatum</cbc:BrandName>
+                <cbc:ModelName>culpa</cbc:ModelName>
+                <cac:ManufacturersItemIdentification>
+                    <cbc:ID>Ernst57027</cbc:ID>
+                </cac:ManufacturersItemIdentification>
+            </cac:Item>
+        </cac:ReceiptLine>
+        <cac:ReceiptLine>
+            <cbc:ID>3</cbc:ID>
+            <cbc:ReceivedQuantity>0.0</cbc:ReceivedQuantity>
+            <cac:Item>
+                <cbc:PackQuantity>53.0</cbc:PackQuantity>
+                <cbc:Name>deserunt</cbc:Name>
+                <cbc:BrandName>autem</cbc:BrandName>
+                <cbc:ModelName>eos</cbc:ModelName>
+                <cac:ManufacturersItemIdentification>
+                    <cbc:ID>Schmitt Voß GbR41125</cbc:ID>
+                </cac:ManufacturersItemIdentification>
+            </cac:Item>
+        </cac:ReceiptLine>
+</ReceiptAdvice>
