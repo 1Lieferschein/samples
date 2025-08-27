@@ -1,3 +1,0 @@
-CustomizationID: Always 1Lieferschein during Test Phase
-ProfileID: ubl-xml-only if the document is to be send as XML (in UBL format), without sorrounding PDF
-ProfileID: ubl-hybrid if the document is to be send as XML (in UBL format), encapsulated in a PDF, ZUGFeRD Style
