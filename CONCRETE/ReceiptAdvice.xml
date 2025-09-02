@@ -92,6 +92,10 @@
             <cac:Contact>
                 <cbc:ElectronicMail>info@mischwerk-gmbh.de</cbc:ElectronicMail>
             </cac:Contact>
+            <cac:Person>
+                <cbc:FirstName>Thorsten</cbc:FirstName>
+                <cbc:FamilyName>Müller</cbc:FamilyName>
+            </cac:Person>
         </cac:Party>
     </cac:DespatchSupplierParty>
     <cac:SellerSupplierParty>
@@ -148,10 +152,41 @@
             <cac:ActualArrivalTransportEvent>
                 <cbc:OccurrenceDate>2025-06-10Z</cbc:OccurrenceDate>
                 <cbc:OccurrenceTime>05:27:00Z</cbc:OccurrenceTime>
+                <cbc:Description>Ankunftszeit</cbc:Description>
             </cac:ActualArrivalTransportEvent>
+            <cac:TransportEvent>
+                <cbc:OccurrenceDate>2025-06-10Z</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>05:43:00Z</cbc:OccurrenceTime>
+                <cbc:Description>Beginn Entladung</cbc:Description>
+            </cac:TransportEvent>
+            <cac:TransportEvent>
+                <cbc:OccurrenceDate>2025-06-10Z</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>05:52:00Z</cbc:OccurrenceTime>
+                <cbc:Description>Abschluss Entladung</cbc:Description>
+            </cac:TransportEvent>
             <cac:DriverPerson>
                 <cbc:FamilyName>COCO</cbc:FamilyName>
             </cac:DriverPerson>
+        </cac:ShipmentStage>
+        <cac:ShipmentStage>
+            <cac:CarrierParty>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName>Mischwerk Group</cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                    <cbc:ElectronicMail>info@mischwerk-gmbh.de</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:CarrierParty>
+            <cac:TransportMeans>
+                <cac:RoadTransport>
+                    <cbc:LicensePlateID>5035 DURML 305</cbc:LicensePlateID>
+                </cac:RoadTransport>
+            </cac:TransportMeans>
+            <cac:ActualDepartureTransportEvent>
+                <cbc:OccurrenceDate>2025-06-10Z</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>04:22:00Z</cbc:OccurrenceTime>
+                <cbc:Description>Beladung abgeschlossen</cbc:Description>
+            </cac:ActualDepartureTransportEvent>
         </cac:ShipmentStage>
         <cac:Delivery>
             <cac:DeliveryLocation>
