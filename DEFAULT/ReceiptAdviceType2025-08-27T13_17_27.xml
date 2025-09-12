@@ -1,321 +1,325 @@
-<?xml version="1.0" encoding="UTF-8" ?><ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-        <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
-        <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
-        <cbc:ProfileID>DEFAULT</cbc:ProfileID>
-        <cbc:ID>1LS_A52D08F2</cbc:ID>
-        <cbc:UUID>1b21988a-c93f-40e5-a445-14c5c6e1fe19</cbc:UUID>
-        <cbc:IssueDate>2025-06-26Z</cbc:IssueDate>
-        <cac:Signature>
-            <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
-            <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
-            <cbc:ValidationDate>2025-06-26Z</cbc:ValidationDate>
-            <cbc:ValidationTime>07:30:49Z</cbc:ValidationTime>
-            <cbc:ValidatorID>1ls_bobbie_android:1.0.18</cbc:ValidatorID>
-            <cac:SignatoryParty>
+<?xml version="1.0" encoding="UTF-8" ?>
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2"
+               xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+    <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+    <cbc:ProfileID>DEFAULT</cbc:ProfileID>
+    <cbc:ProfileExecutionID>1.0</cbc:ProfileExecutionID>
+    <cbc:ID>1LS_A52D08F2</cbc:ID>
+    <cbc:UUID>1b21988a-c93f-40e5-a445-14c5c6e1fe19</cbc:UUID>
+    <cbc:IssueDate>2025-06-26Z</cbc:IssueDate>
+    <cac:Signature>
+        <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
+        <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
+        <cbc:ValidationDate>2025-06-26Z</cbc:ValidationDate>
+        <cbc:ValidationTime>07:30:49Z</cbc:ValidationTime>
+        <cbc:ValidatorID>1ls_bobbie_android:1.0.18</cbc:ValidatorID>
+        <cac:SignatoryParty>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Kleingartenbauprojekte Kleinhamburg</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Zur kleinen Heide 12</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>20255 Hamburg</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Kleingartenbauprojekte Kleinhamburg</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Petra Schloss</cbc:Name>
+                <cbc:Telephone>08681 92 09 32</cbc:Telephone>
+                <cbc:Telefax>08681 92 09 32</cbc:Telefax>
+                <cbc:ElectronicMail>receiver@bobbie.de</cbc:ElectronicMail>
+                <cac:OtherCommunication>
+                    <cbc:Channel>Mobile</cbc:Channel>
+                    <cbc:Value>+49 909 213 79</cbc:Value>
+                </cac:OtherCommunication>
+            </cac:Contact>
+            <cac:Person>
+                <cbc:FirstName>Petra</cbc:FirstName>
+                <cbc:FamilyName>Schloss</cbc:FamilyName>
+                <cbc:JobTitle>Baustellenleiterin</cbc:JobTitle>
+            </cac:Person>
+        </cac:SignatoryParty>
+        <cac:OriginalDocumentReference>
+            <cbc:ID>1lieferschein_predecessor</cbc:ID>
+            <cbc:UUID>950ee34f-c6f4-4e4f-a3dd-fbefd938bf74</cbc:UUID>
+            <cbc:DocumentTypeCode>XML_1LS_DespatchAdvice</cbc:DocumentTypeCode>
+        </cac:OriginalDocumentReference>
+    </cac:Signature>
+    <cac:DeliveryCustomerParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Feldmannallee 85</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>42954 Gotha</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Schmitz Reich GmbH &amp; Co. KG</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Gerlinde Gruber</cbc:Name>
+                <cbc:Telephone>+49 (04777) 2195975</cbc:Telephone>
+                <cbc:Telefax>+49(0471) 493 2511</cbc:Telefax>
+                <cbc:ElectronicMail>gerlinde.gruber@example.org</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DeliveryContact>
+            <cbc:Name>Rosina Lang</cbc:Name>
+            <cbc:Telephone>+49(07405) 294 3440</cbc:Telephone>
+            <cbc:Telefax>+49 (0751) 3223302</cbc:Telefax>
+            <cbc:ElectronicMail>rosina.lang@example.net</cbc:ElectronicMail>
+        </cac:DeliveryContact>
+        <cac:AccountingContact>
+            <cbc:Name>Eckard Kuhn</cbc:Name>
+            <cbc:Telephone>+4958224698342</cbc:Telephone>
+            <cbc:Telefax>+49 7161 615 6360</cbc:Telefax>
+            <cbc:ElectronicMail>eckard.kuhn@example.net</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:BuyerContact>
+            <cbc:Name>Jörg Bernhardt</cbc:Name>
+            <cbc:Telephone>+49 931 2862156</cbc:Telephone>
+            <cbc:Telefax>+49 561 2640683</cbc:Telefax>
+            <cbc:ElectronicMail>jörg.bernhardt@example.org</cbc:ElectronicMail>
+        </cac:BuyerContact>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Andersgasse 93b</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>92557 Viersen</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Langer</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Halina Rupp</cbc:Name>
+                <cbc:Telephone>+4905492 835 0990</cbc:Telephone>
+                <cbc:Telefax>+490961 9163914</cbc:Telefax>
+                <cbc:ElectronicMail>halina.rupp@example.org</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DespatchContact>
+            <cbc:Name>Britta Runge</cbc:Name>
+            <cbc:Telephone>+49 (02385) 9320373</cbc:Telephone>
+            <cbc:Telefax>+49 (08843) 621 5814</cbc:Telefax>
+            <cbc:ElectronicMail>britta.runge@example.org</cbc:ElectronicMail>
+        </cac:DespatchContact>
+        <cac:AccountingContact>
+            <cbc:Name>Rolf Schulz</cbc:Name>
+            <cbc:Telephone>+490791 3193540</cbc:Telephone>
+            <cbc:Telefax>+49(08229) 695 0278</cbc:Telefax>
+            <cbc:ElectronicMail>rolf.schulz@example.org</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:SellerContact>
+            <cbc:Name>Sandra Schindler</cbc:Name>
+            <cbc:Telephone>+49 (06324) 3065112</cbc:Telephone>
+            <cbc:Telefax>+49340419 3562</cbc:Telefax>
+            <cbc:ElectronicMail>sandra.schindler@example.net</cbc:ElectronicMail>
+        </cac:SellerContact>
+    </cac:DespatchSupplierParty>
+    <cac:BuyerCustomerParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Jahngasse 98a</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>53362 Menden (Sauerland)</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Kiefer Pieper GmbH</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Ignaz Klose</cbc:Name>
+                <cbc:Telephone>+49 (0611) 0849373</cbc:Telephone>
+                <cbc:Telefax>+49 881 076 2821</cbc:Telefax>
+                <cbc:ElectronicMail>ignaz.klose@example.net</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DeliveryContact>
+            <cbc:Name>Dieter Becker</cbc:Name>
+            <cbc:Telephone>+4904867 7699540</cbc:Telephone>
+            <cbc:Telefax>+49035284 301 7656</cbc:Telefax>
+            <cbc:ElectronicMail>dieter.becker@example.net</cbc:ElectronicMail>
+        </cac:DeliveryContact>
+        <cac:AccountingContact>
+            <cbc:Name>Gerhard Schlegel</cbc:Name>
+            <cbc:Telephone>+49471090 5880</cbc:Telephone>
+            <cbc:Telefax>+49(0431) 584 0238</cbc:Telefax>
+            <cbc:ElectronicMail>gerhard.schlegel@example.com</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:BuyerContact>
+            <cbc:Name>Halil Kremer</cbc:Name>
+            <cbc:Telephone>+49 8199 764 0948</cbc:Telephone>
+            <cbc:Telefax>+497513730554</cbc:Telefax>
+            <cbc:ElectronicMail>halil.kremer@example.org</cbc:ElectronicMail>
+        </cac:BuyerContact>
+    </cac:BuyerCustomerParty>
+    <cac:SellerSupplierParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Simona-Breuer-Straße 37</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>85216 Bad Harzburg</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Henke</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Caroline Konrad</cbc:Name>
+                <cbc:Telephone>+49 941 653 0156</cbc:Telephone>
+                <cbc:Telefax>+49 (0741) 8685193</cbc:Telefax>
+                <cbc:ElectronicMail>caroline.konrad@example.net</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DespatchContact>
+            <cbc:Name>Waltraut Schmid</cbc:Name>
+            <cbc:Telephone>+49(09688) 143 4787</cbc:Telephone>
+            <cbc:Telefax>+49 5022 656 3286</cbc:Telefax>
+            <cbc:ElectronicMail>waltraut.schmid@example.org</cbc:ElectronicMail>
+        </cac:DespatchContact>
+        <cac:AccountingContact>
+            <cbc:Name>Guiseppe Wilke</cbc:Name>
+            <cbc:Telephone>+49(07974) 612 2275</cbc:Telephone>
+            <cbc:Telefax>+49 6665 373 0267</cbc:Telefax>
+            <cbc:ElectronicMail>guiseppe.wilke@example.net</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:SellerContact>
+            <cbc:Name>Edith Engelmann</cbc:Name>
+            <cbc:Telephone>+49 (0721) 428 1342</cbc:Telephone>
+            <cbc:Telefax>+49(06230) 373 4231</cbc:Telefax>
+            <cbc:ElectronicMail>edith.engelmann@example.com</cbc:ElectronicMail>
+        </cac:SellerContact>
+    </cac:SellerSupplierParty>
+    <cac:Shipment>
+        <cac:ShipmentStage>
+            <cac:CarrierParty>
                 <cac:PostalAddress>
                     <cac:AddressLine>
-                        <cbc:Line>Kleingartenbauprojekte Kleinhamburg</cbc:Line>
+                        <cbc:Line>Probststraße 8</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
-                        <cbc:Line>Zur kleinen Heide 12</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>20255 Hamburg</cbc:Line>
+                        <cbc:Line>59011 Stadthagen</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
                         <cbc:Line>Deutschland</cbc:Line>
                     </cac:AddressLine>
                 </cac:PostalAddress>
                 <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Kleingartenbauprojekte Kleinhamburg</cbc:RegistrationName>
+                    <cbc:RegistrationName>Bischoff GmbH</cbc:RegistrationName>
                 </cac:PartyLegalEntity>
                 <cac:Contact>
-                    <cbc:Name>Petra Schloss</cbc:Name>
-                    <cbc:Telephone>08681 92 09 32</cbc:Telephone>
-                    <cbc:Telefax>08681 92 09 32</cbc:Telefax>
-                    <cbc:ElectronicMail>receiver@bobbie.de</cbc:ElectronicMail>
-                    <cac:OtherCommunication>
-                        <cbc:Channel>Mobile</cbc:Channel>
-                        <cbc:Value>+49 909 213 79</cbc:Value>
-                    </cac:OtherCommunication>
+                    <cbc:Name>Ewa Rausch</cbc:Name>
+                    <cbc:Telephone>+49 (07246) 537 9578</cbc:Telephone>
+                    <cbc:Telefax>+49(0881) 686 1042</cbc:Telefax>
+                    <cbc:ElectronicMail>ewa.rausch@example.net</cbc:ElectronicMail>
                 </cac:Contact>
-                <cac:Person>
-                    <cbc:FirstName>Petra</cbc:FirstName>
-                    <cbc:FamilyName>Schloss</cbc:FamilyName>
-                    <cbc:JobTitle>Baustellenleiterin</cbc:JobTitle>
-                </cac:Person>
-            </cac:SignatoryParty>
-            <cac:OriginalDocumentReference>
-                <cbc:ID>1lieferschein_predecessor</cbc:ID>
-                <cbc:UUID>950ee34f-c6f4-4e4f-a3dd-fbefd938bf74</cbc:UUID>
-                <cbc:DocumentTypeCode>XML_1LS_DespatchAdvice</cbc:DocumentTypeCode>
-            </cac:OriginalDocumentReference>
-        </cac:Signature>
-        <cac:DeliveryCustomerParty>
-            <cac:Party>
-                <cac:PostalAddress>
+            </cac:CarrierParty>
+            <cac:DriverPerson>
+                <cbc:FirstName>Krystyna</cbc:FirstName>
+                <cbc:FamilyName>Schilling</cbc:FamilyName>
+                <cac:Contact>
+                    <cbc:Name>Krystyna Schilling</cbc:Name>
+                    <cbc:Telephone>+49(0611) 034 1814</cbc:Telephone>
+                    <cbc:Telefax>+49 641 4887248</cbc:Telefax>
+                    <cbc:ElectronicMail>krystyna.schilling@example.com</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:DriverPerson>
+        </cac:ShipmentStage>
+        <cac:Delivery>
+            <cac:DeliveryLocation>
+                <cac:Address>
                     <cac:AddressLine>
-                        <cbc:Line>Feldmannallee 85</cbc:Line>
+                        <cbc:Line>Neubauerplatz 7/9</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
-                        <cbc:Line>42954 Gotha</cbc:Line>
+                        <cbc:Line>07079 Ottobrunn</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:Address>
+            </cac:DeliveryLocation>
+            <cac:AlternativeDeliveryLocation>
+                <cac:Address>
+                    <cac:AddressLine>
+                        <cbc:Line>Wittegasse 94c</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>33331 Achim</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:Address>
+            </cac:AlternativeDeliveryLocation>
+            <cac:CarrierParty>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Carla-Herold-Straße 4b</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>01787 Bietigheim-Bissingen</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
                         <cbc:Line>Deutschland</cbc:Line>
                     </cac:AddressLine>
                 </cac:PostalAddress>
                 <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Schmitz Reich GmbH &amp; Co. KG</cbc:RegistrationName>
+                    <cbc:RegistrationName>Krieger Stiftung &amp; Co. KGaA</cbc:RegistrationName>
                 </cac:PartyLegalEntity>
                 <cac:Contact>
-                    <cbc:Name>Gerlinde Gruber</cbc:Name>
-                    <cbc:Telephone>+49 (04777) 2195975</cbc:Telephone>
-                    <cbc:Telefax>+49(0471) 493 2511</cbc:Telefax>
-                    <cbc:ElectronicMail>gerlinde.gruber@example.org</cbc:ElectronicMail>
+                    <cbc:Name>Marius Friedrich</cbc:Name>
+                    <cbc:Telephone>+49(04549) 9034974</cbc:Telephone>
+                    <cbc:Telefax>+49 (03981) 233 7313</cbc:Telefax>
+                    <cbc:ElectronicMail>marius.friedrich@example.org</cbc:ElectronicMail>
                 </cac:Contact>
-            </cac:Party>
-            <cac:DeliveryContact>
-                <cbc:Name>Rosina Lang</cbc:Name>
-                <cbc:Telephone>+49(07405) 294 3440</cbc:Telephone>
-                <cbc:Telefax>+49 (0751) 3223302</cbc:Telefax>
-                <cbc:ElectronicMail>rosina.lang@example.net</cbc:ElectronicMail>
-            </cac:DeliveryContact>
-            <cac:AccountingContact>
-                <cbc:Name>Eckard Kuhn</cbc:Name>
-                <cbc:Telephone>+4958224698342</cbc:Telephone>
-                <cbc:Telefax>+49 7161 615 6360</cbc:Telefax>
-                <cbc:ElectronicMail>eckard.kuhn@example.net</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:BuyerContact>
-                <cbc:Name>Jörg Bernhardt</cbc:Name>
-                <cbc:Telephone>+49 931 2862156</cbc:Telephone>
-                <cbc:Telefax>+49 561 2640683</cbc:Telefax>
-                <cbc:ElectronicMail>jörg.bernhardt@example.org</cbc:ElectronicMail>
-            </cac:BuyerContact>
-        </cac:DeliveryCustomerParty>
-        <cac:DespatchSupplierParty>
-            <cac:Party>
-                <cac:PostalAddress>
-                    <cac:AddressLine>
-                        <cbc:Line>Andersgasse 93b</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>92557 Viersen</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>Deutschland</cbc:Line>
-                    </cac:AddressLine>
-                </cac:PostalAddress>
-                <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Langer</cbc:RegistrationName>
-                </cac:PartyLegalEntity>
-                <cac:Contact>
-                    <cbc:Name>Halina Rupp</cbc:Name>
-                    <cbc:Telephone>+4905492 835 0990</cbc:Telephone>
-                    <cbc:Telefax>+490961 9163914</cbc:Telefax>
-                    <cbc:ElectronicMail>halina.rupp@example.org</cbc:ElectronicMail>
-                </cac:Contact>
-            </cac:Party>
-            <cac:DespatchContact>
-                <cbc:Name>Britta Runge</cbc:Name>
-                <cbc:Telephone>+49 (02385) 9320373</cbc:Telephone>
-                <cbc:Telefax>+49 (08843) 621 5814</cbc:Telefax>
-                <cbc:ElectronicMail>britta.runge@example.org</cbc:ElectronicMail>
-            </cac:DespatchContact>
-            <cac:AccountingContact>
-                <cbc:Name>Rolf Schulz</cbc:Name>
-                <cbc:Telephone>+490791 3193540</cbc:Telephone>
-                <cbc:Telefax>+49(08229) 695 0278</cbc:Telefax>
-                <cbc:ElectronicMail>rolf.schulz@example.org</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:SellerContact>
-                <cbc:Name>Sandra Schindler</cbc:Name>
-                <cbc:Telephone>+49 (06324) 3065112</cbc:Telephone>
-                <cbc:Telefax>+49340419 3562</cbc:Telefax>
-                <cbc:ElectronicMail>sandra.schindler@example.net</cbc:ElectronicMail>
-            </cac:SellerContact>
-        </cac:DespatchSupplierParty>
-        <cac:BuyerCustomerParty>
-            <cac:Party>
-                <cac:PostalAddress>
-                    <cac:AddressLine>
-                        <cbc:Line>Jahngasse 98a</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>53362 Menden (Sauerland)</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>Deutschland</cbc:Line>
-                    </cac:AddressLine>
-                </cac:PostalAddress>
-                <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Kiefer Pieper GmbH</cbc:RegistrationName>
-                </cac:PartyLegalEntity>
-                <cac:Contact>
-                    <cbc:Name>Ignaz Klose</cbc:Name>
-                    <cbc:Telephone>+49 (0611) 0849373</cbc:Telephone>
-                    <cbc:Telefax>+49 881 076 2821</cbc:Telefax>
-                    <cbc:ElectronicMail>ignaz.klose@example.net</cbc:ElectronicMail>
-                </cac:Contact>
-            </cac:Party>
-            <cac:DeliveryContact>
-                <cbc:Name>Dieter Becker</cbc:Name>
-                <cbc:Telephone>+4904867 7699540</cbc:Telephone>
-                <cbc:Telefax>+49035284 301 7656</cbc:Telefax>
-                <cbc:ElectronicMail>dieter.becker@example.net</cbc:ElectronicMail>
-            </cac:DeliveryContact>
-            <cac:AccountingContact>
-                <cbc:Name>Gerhard Schlegel</cbc:Name>
-                <cbc:Telephone>+49471090 5880</cbc:Telephone>
-                <cbc:Telefax>+49(0431) 584 0238</cbc:Telefax>
-                <cbc:ElectronicMail>gerhard.schlegel@example.com</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:BuyerContact>
-                <cbc:Name>Halil Kremer</cbc:Name>
-                <cbc:Telephone>+49 8199 764 0948</cbc:Telephone>
-                <cbc:Telefax>+497513730554</cbc:Telefax>
-                <cbc:ElectronicMail>halil.kremer@example.org</cbc:ElectronicMail>
-            </cac:BuyerContact>
-        </cac:BuyerCustomerParty>
-        <cac:SellerSupplierParty>
-            <cac:Party>
-                <cac:PostalAddress>
-                    <cac:AddressLine>
-                        <cbc:Line>Simona-Breuer-Straße 37</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>85216 Bad Harzburg</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>Deutschland</cbc:Line>
-                    </cac:AddressLine>
-                </cac:PostalAddress>
-                <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Henke</cbc:RegistrationName>
-                </cac:PartyLegalEntity>
-                <cac:Contact>
-                    <cbc:Name>Caroline Konrad</cbc:Name>
-                    <cbc:Telephone>+49 941 653 0156</cbc:Telephone>
-                    <cbc:Telefax>+49 (0741) 8685193</cbc:Telefax>
-                    <cbc:ElectronicMail>caroline.konrad@example.net</cbc:ElectronicMail>
-                </cac:Contact>
-            </cac:Party>
-            <cac:DespatchContact>
-                <cbc:Name>Waltraut Schmid</cbc:Name>
-                <cbc:Telephone>+49(09688) 143 4787</cbc:Telephone>
-                <cbc:Telefax>+49 5022 656 3286</cbc:Telefax>
-                <cbc:ElectronicMail>waltraut.schmid@example.org</cbc:ElectronicMail>
-            </cac:DespatchContact>
-            <cac:AccountingContact>
-                <cbc:Name>Guiseppe Wilke</cbc:Name>
-                <cbc:Telephone>+49(07974) 612 2275</cbc:Telephone>
-                <cbc:Telefax>+49 6665 373 0267</cbc:Telefax>
-                <cbc:ElectronicMail>guiseppe.wilke@example.net</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:SellerContact>
-                <cbc:Name>Edith Engelmann</cbc:Name>
-                <cbc:Telephone>+49 (0721) 428 1342</cbc:Telephone>
-                <cbc:Telefax>+49(06230) 373 4231</cbc:Telefax>
-                <cbc:ElectronicMail>edith.engelmann@example.com</cbc:ElectronicMail>
-            </cac:SellerContact>
-        </cac:SellerSupplierParty>
-        <cac:Shipment>
-            <cac:ShipmentStage>
-                <cac:CarrierParty>
-                    <cac:PostalAddress>
-                        <cac:AddressLine>
-                            <cbc:Line>Probststraße 8</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>59011 Stadthagen</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:PostalAddress>
-                    <cac:PartyLegalEntity>
-                        <cbc:RegistrationName>Bischoff GmbH</cbc:RegistrationName>
-                    </cac:PartyLegalEntity>
-                    <cac:Contact>
-                        <cbc:Name>Ewa Rausch</cbc:Name>
-                        <cbc:Telephone>+49 (07246) 537 9578</cbc:Telephone>
-                        <cbc:Telefax>+49(0881) 686 1042</cbc:Telefax>
-                        <cbc:ElectronicMail>ewa.rausch@example.net</cbc:ElectronicMail>
-                    </cac:Contact>
-                </cac:CarrierParty>
-                <cac:DriverPerson>
-                    <cbc:FirstName>Krystyna</cbc:FirstName>
-                    <cbc:FamilyName>Schilling</cbc:FamilyName>
-                    <cac:Contact>
-                        <cbc:Name>Krystyna Schilling</cbc:Name>
-                        <cbc:Telephone>+49(0611) 034 1814</cbc:Telephone>
-                        <cbc:Telefax>+49 641 4887248</cbc:Telefax>
-                        <cbc:ElectronicMail>krystyna.schilling@example.com</cbc:ElectronicMail>
-                    </cac:Contact>
-                </cac:DriverPerson>
-            </cac:ShipmentStage>
-            <cac:Delivery>
-                <cac:DeliveryLocation>
-                    <cac:Address>
-                        <cac:AddressLine>
-                            <cbc:Line>Neubauerplatz 7/9</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>07079 Ottobrunn</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:Address>
-                </cac:DeliveryLocation>
-                <cac:AlternativeDeliveryLocation>
-                    <cac:Address>
-                        <cac:AddressLine>
-                            <cbc:Line>Wittegasse 94c</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>33331 Achim</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:Address>
-                </cac:AlternativeDeliveryLocation>
-                <cac:CarrierParty>
-                    <cac:PostalAddress>
-                        <cac:AddressLine>
-                            <cbc:Line>Carla-Herold-Straße 4b</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>01787 Bietigheim-Bissingen</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:PostalAddress>
-                    <cac:PartyLegalEntity>
-                        <cbc:RegistrationName>Krieger Stiftung &amp; Co. KGaA</cbc:RegistrationName>
-                    </cac:PartyLegalEntity>
-                    <cac:Contact>
-                        <cbc:Name>Marius Friedrich</cbc:Name>
-                        <cbc:Telephone>+49(04549) 9034974</cbc:Telephone>
-                        <cbc:Telefax>+49 (03981) 233 7313</cbc:Telefax>
-                        <cbc:ElectronicMail>marius.friedrich@example.org</cbc:ElectronicMail>
-                    </cac:Contact>
-                </cac:CarrierParty>
-            </cac:Delivery>
-        </cac:Shipment>
-        <cac:ReceiptLine>
-            <cbc:ID>1</cbc:ID>
-            <cbc:ReceivedQuantity unitCode="C62">1883.0</cbc:ReceivedQuantity>
-            <cac:Item>
-                <cbc:PackQuantity>60.0</cbc:PackQuantity>
-                <cbc:Name>quibusdam</cbc:Name>
-                <cbc:BrandName>et</cbc:BrandName>
-                <cbc:ModelName>facere</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Becker AG13032</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
+            </cac:CarrierParty>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:ReceivedQuantity unitCode="C62">1883.0</cbc:ReceivedQuantity>
+        <cac:Item>
+            <cbc:PackQuantity>60.0</cbc:PackQuantity>
+            <cbc:Name>quibusdam</cbc:Name>
+            <cbc:BrandName>et</cbc:BrandName>
+            <cbc:ModelName>facere</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Becker AG13032</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
 </ReceiptAdvice>

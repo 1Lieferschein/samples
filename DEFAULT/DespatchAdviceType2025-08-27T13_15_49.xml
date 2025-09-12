@@ -3,8 +3,9 @@
   <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
   <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
   <cbc:ProfileID>DEFAULT</cbc:ProfileID>
+  <cbc:ProfileExecutionID>1.0</cbc:ProfileExecutionID>
   <cbc:ID>1LS_B48909D3</cbc:ID>
-  <cbc:UUID>h4ff49a7-9627-48d7-902a-4bfec5a45083</cbc:UUID>
+  <cbc:UUID>9fb78d52-3b10-41d4-a959-a58fa26a68f1</cbc:UUID>
   <cbc:IssueDate>2025-02-05</cbc:IssueDate>
   <cac:Signature>
     <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>

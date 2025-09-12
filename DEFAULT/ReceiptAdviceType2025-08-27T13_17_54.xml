@@ -1,318 +1,324 @@
-<?xml version="1.0" encoding="UTF-8" ?><ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-        <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
-        <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
-        <cbc:ProfileID>DEFAULT</cbc:ProfileID>
-        <cbc:ID>1LS_A54E0980</cbc:ID>
-        <cbc:UUID>4bac48aa-06a3-4707-bd96-ecccddcbe36d</cbc:UUID>
-        <cbc:IssueDate>2025-06-20Z</cbc:IssueDate>
-        <cac:Signature>
-            <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
-            <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
-            <cbc:ValidationDate>2025-06-20Z</cbc:ValidationDate>
-            <cbc:ValidationTime>11:08:54Z</cbc:ValidationTime>
-            <cbc:ValidatorID>1ls_bobbie_android:1.0.17</cbc:ValidatorID>
-            <cac:SignatoryParty>
+<?xml version="1.0" encoding="UTF-8" ?>
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2"
+               xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+    <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
+    <cbc:ProfileID>DEFAULT</cbc:ProfileID>
+    <cbc:ProfileExecutionID>1.0</cbc:ProfileExecutionID>
+    <cbc:ID>1LS_A54E0980</cbc:ID>
+    <cbc:UUID>4bac48aa-06a3-4707-bd96-ecccddcbe36d</cbc:UUID>
+    <cbc:IssueDate>2025-06-20Z</cbc:IssueDate>
+    <cac:Signature>
+        <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
+        <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
+        <cbc:ValidationDate>2025-06-20Z</cbc:ValidationDate>
+        <cbc:ValidationTime>11:08:54Z</cbc:ValidationTime>
+        <cbc:ValidatorID>1ls_bobbie_android:1.0.17</cbc:ValidatorID>
+        <cac:SignatoryParty>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Kleingartenbauprojekte Kleinhamburg</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Zur kleinen Heide 12</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>20255 Hamburg</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Kleingartenbauprojekte Kleinhamburg</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Petra Schloss</cbc:Name>
+                <cbc:Telephone>08681 92 09 32</cbc:Telephone>
+                <cbc:Telefax>08681 92 09 32</cbc:Telefax>
+                <cbc:ElectronicMail>receiver@dev.dtrans.bobbie.de</cbc:ElectronicMail>
+                <cac:OtherCommunication>
+                    <cbc:Channel>Mobile</cbc:Channel>
+                    <cbc:Value>+49 909 213 79</cbc:Value>
+                </cac:OtherCommunication>
+            </cac:Contact>
+            <cac:Person>
+                <cbc:FirstName>Petra</cbc:FirstName>
+                <cbc:FamilyName>Schloss</cbc:FamilyName>
+                <cbc:JobTitle>Baustellenleiterin</cbc:JobTitle>
+            </cac:Person>
+        </cac:SignatoryParty>
+        <cac:OriginalDocumentReference>
+            <cbc:ID>1lieferschein_predecessor</cbc:ID>
+            <cbc:UUID>85ae6ad7-bc20-4e41-a543-1064f360cb43</cbc:UUID>
+            <cbc:DocumentTypeCode>XML_1LS_DespatchAdvice</cbc:DocumentTypeCode>
+        </cac:OriginalDocumentReference>
+    </cac:Signature>
+    <cac:DeliveryCustomerParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Meisterstr. 20c</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>30814 Zerbst/Anhalt</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Büttner</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Cornelia Engel</cbc:Name>
+                <cbc:Telephone>+49 (03328) 9476657</cbc:Telephone>
+                <cbc:Telefax>+49 (0651) 1291510</cbc:Telefax>
+                <cbc:ElectronicMail>cornelia.engel@example.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DeliveryContact>
+            <cbc:Name>Janine Metzger</cbc:Name>
+            <cbc:Telephone>+49(0461) 5231037</cbc:Telephone>
+            <cbc:Telefax>+49(0641) 136 4344</cbc:Telefax>
+            <cbc:ElectronicMail>janine.metzger@example.net</cbc:ElectronicMail>
+        </cac:DeliveryContact>
+        <cac:AccountingContact>
+            <cbc:Name>Renate Jacob</cbc:Name>
+            <cbc:Telephone>+49 7569 867 1766</cbc:Telephone>
+            <cbc:Telefax>+49 6052 5402965</cbc:Telefax>
+            <cbc:ElectronicMail>renate.jacob@example.org</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:BuyerContact>
+            <cbc:Name>Bernard Schüler</cbc:Name>
+            <cbc:Telephone>+49 (0211) 6984910</cbc:Telephone>
+            <cbc:Telefax>+49(09330) 310 9906</cbc:Telefax>
+            <cbc:ElectronicMail>bernard.schüler@example.org</cbc:ElectronicMail>
+        </cac:BuyerContact>
+    </cac:DeliveryCustomerParty>
+    <cac:DespatchSupplierParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Nils-Otto-Allee 60</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>60545 Güstrow</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Pfeifer</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Miroslaw Bode</cbc:Name>
+                <cbc:Telephone>+49 (0471) 1534418</cbc:Telephone>
+                <cbc:Telefax>+49 (0291) 147 9064</cbc:Telefax>
+                <cbc:ElectronicMail>miroslaw.bode@example.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DespatchContact>
+            <cbc:Name>Swen Kluge</cbc:Name>
+            <cbc:Telephone>+49 39275 207 0078</cbc:Telephone>
+            <cbc:Telefax>+49 641 7484001</cbc:Telefax>
+            <cbc:ElectronicMail>swen.kluge@example.net</cbc:ElectronicMail>
+        </cac:DespatchContact>
+        <cac:AccountingContact>
+            <cbc:Name>Gunther Keller</cbc:Name>
+            <cbc:Telephone>+4949041884223</cbc:Telephone>
+            <cbc:Telefax>+492589050 4809</cbc:Telefax>
+            <cbc:ElectronicMail>gunther.keller@example.com</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:SellerContact>
+            <cbc:Name>Hans-Joachim Jung</cbc:Name>
+            <cbc:Telephone>+49(05628) 960 7799</cbc:Telephone>
+            <cbc:Telefax>+49 (0851) 8686648</cbc:Telefax>
+            <cbc:ElectronicMail>hans-joachim.jung@example.com</cbc:ElectronicMail>
+        </cac:SellerContact>
+    </cac:DespatchSupplierParty>
+    <cac:BuyerCustomerParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Behrendtstraße 54</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>00090 Norden</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Geyer</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Bertram Heinrich</cbc:Name>
+                <cbc:Telephone>+49 (03824) 639 5441</cbc:Telephone>
+                <cbc:Telefax>+4904934 862 1191</cbc:Telefax>
+                <cbc:ElectronicMail>bertram.heinrich@example.net</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DeliveryContact>
+            <cbc:Name>Nora Kopp</cbc:Name>
+            <cbc:Telephone>+49228430 4126</cbc:Telephone>
+            <cbc:Telefax>+49 331 280 7204</cbc:Telefax>
+            <cbc:ElectronicMail>nora.kopp@example.net</cbc:ElectronicMail>
+        </cac:DeliveryContact>
+        <cac:AccountingContact>
+            <cbc:Name>Annegret May</cbc:Name>
+            <cbc:Telephone>+49 40 056 7302</cbc:Telephone>
+            <cbc:Telefax>+49 6056 8644038</cbc:Telefax>
+            <cbc:ElectronicMail>annegret.may@example.net</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:BuyerContact>
+            <cbc:Name>Günter Grimm</cbc:Name>
+            <cbc:Telephone>+4908562 0393628</cbc:Telephone>
+            <cbc:Telefax>+49 (0261) 4106454</cbc:Telefax>
+            <cbc:ElectronicMail>günter.grimm@example.net</cbc:ElectronicMail>
+        </cac:BuyerContact>
+    </cac:BuyerCustomerParty>
+    <cac:SellerSupplierParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cac:AddressLine>
+                    <cbc:Line>Caroline-Reichel-Allee 399</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>73294 Waltrop</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Deutschland</cbc:Line>
+                </cac:AddressLine>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Hübner</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Sven Bayer</cbc:Name>
+                <cbc:Telephone>+49355648 6014</cbc:Telephone>
+                <cbc:Telefax>+49 211 4503512</cbc:Telefax>
+                <cbc:ElectronicMail>sven.bayer@example.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+        <cac:DespatchContact>
+            <cbc:Name>Reinhardt Groß</cbc:Name>
+            <cbc:Telephone>+49 4804 5479129</cbc:Telephone>
+            <cbc:Telefax>+49 5251 103 0293</cbc:Telefax>
+            <cbc:ElectronicMail>reinhardt.groß@example.net</cbc:ElectronicMail>
+        </cac:DespatchContact>
+        <cac:AccountingContact>
+            <cbc:Name>Elke Preuß</cbc:Name>
+            <cbc:Telephone>+490365 428 8003</cbc:Telephone>
+            <cbc:Telefax>+49 4205 3174669</cbc:Telefax>
+            <cbc:ElectronicMail>elke.preuß@example.net</cbc:ElectronicMail>
+        </cac:AccountingContact>
+        <cac:SellerContact>
+            <cbc:Name>Hans-Günther Martens</cbc:Name>
+            <cbc:Telephone>+490841 675 1833</cbc:Telephone>
+            <cbc:Telefax>+49 (02309) 5558511</cbc:Telefax>
+            <cbc:ElectronicMail>hans-günther.martens@example.org</cbc:ElectronicMail>
+        </cac:SellerContact>
+    </cac:SellerSupplierParty>
+    <cac:Shipment>
+        <cac:ShipmentStage>
+            <cac:CarrierParty>
                 <cac:PostalAddress>
                     <cac:AddressLine>
-                        <cbc:Line>Kleingartenbauprojekte Kleinhamburg</cbc:Line>
+                        <cbc:Line>Kuhlmannring 6</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
-                        <cbc:Line>Zur kleinen Heide 12</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>20255 Hamburg</cbc:Line>
+                        <cbc:Line>67011 Hockenheim</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
                         <cbc:Line>Deutschland</cbc:Line>
                     </cac:AddressLine>
                 </cac:PostalAddress>
                 <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Kleingartenbauprojekte Kleinhamburg</cbc:RegistrationName>
+                    <cbc:RegistrationName>Neubauer</cbc:RegistrationName>
                 </cac:PartyLegalEntity>
                 <cac:Contact>
-                    <cbc:Name>Petra Schloss</cbc:Name>
-                    <cbc:Telephone>08681 92 09 32</cbc:Telephone>
-                    <cbc:Telefax>08681 92 09 32</cbc:Telefax>
-                    <cbc:ElectronicMail>receiver@dev.dtrans.bobbie.de</cbc:ElectronicMail>
-                    <cac:OtherCommunication>
-                        <cbc:Channel>Mobile</cbc:Channel>
-                        <cbc:Value>+49 909 213 79</cbc:Value>
-                    </cac:OtherCommunication>
+                    <cbc:Name>Mario Keßler</cbc:Name>
+                    <cbc:Telephone>+49 385 9243930</cbc:Telephone>
+                    <cbc:Telefax>+499224097 5987</cbc:Telefax>
+                    <cbc:ElectronicMail>mario.keßler@example.net</cbc:ElectronicMail>
                 </cac:Contact>
-                <cac:Person>
-                    <cbc:FirstName>Petra</cbc:FirstName>
-                    <cbc:FamilyName>Schloss</cbc:FamilyName>
-                    <cbc:JobTitle>Baustellenleiterin</cbc:JobTitle>
-                </cac:Person>
-            </cac:SignatoryParty>
-            <cac:OriginalDocumentReference>
-                <cbc:ID>1lieferschein_predecessor</cbc:ID>
-                <cbc:UUID>85ae6ad7-bc20-4e41-a543-1064f360cb43</cbc:UUID>
-                <cbc:DocumentTypeCode>XML_1LS_DespatchAdvice</cbc:DocumentTypeCode>
-            </cac:OriginalDocumentReference>
-        </cac:Signature>
-        <cac:DeliveryCustomerParty>
-            <cac:Party>
-                <cac:PostalAddress>
+            </cac:CarrierParty>
+            <cac:DriverPerson>
+                <cbc:FirstName>Manja</cbc:FirstName>
+                <cbc:FamilyName>Fritz</cbc:FamilyName>
+                <cac:Contact>
+                    <cbc:Name>Manja Fritz</cbc:Name>
+                    <cbc:Telephone>+49(0611) 708 1703</cbc:Telephone>
+                    <cbc:Telefax>+49 6133 188 3282</cbc:Telefax>
+                    <cbc:ElectronicMail>manja.fritz@example.org</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:DriverPerson>
+        </cac:ShipmentStage>
+        <cac:Delivery>
+            <cac:DeliveryLocation>
+                <cac:Address>
                     <cac:AddressLine>
-                        <cbc:Line>Meisterstr. 20c</cbc:Line>
+                        <cbc:Line>Kesslerplatz 5</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
-                        <cbc:Line>30814 Zerbst/Anhalt</cbc:Line>
+                        <cbc:Line>06640 Frechen</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:Address>
+            </cac:DeliveryLocation>
+            <cac:AlternativeDeliveryLocation>
+                <cac:Address>
+                    <cac:AddressLine>
+                        <cbc:Line>Samuel-Wiesner-Weg 96c</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>24650 Griesheim</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>Deutschland</cbc:Line>
+                    </cac:AddressLine>
+                </cac:Address>
+            </cac:AlternativeDeliveryLocation>
+            <cac:CarrierParty>
+                <cac:PostalAddress>
+                    <cac:AddressLine>
+                        <cbc:Line>Hechtgasse 2</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:AddressLine>
+                        <cbc:Line>82105 Monheim am Rhein</cbc:Line>
                     </cac:AddressLine>
                     <cac:AddressLine>
                         <cbc:Line>Deutschland</cbc:Line>
                     </cac:AddressLine>
                 </cac:PostalAddress>
                 <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Büttner</cbc:RegistrationName>
+                    <cbc:RegistrationName>Vollmer</cbc:RegistrationName>
                 </cac:PartyLegalEntity>
                 <cac:Contact>
-                    <cbc:Name>Cornelia Engel</cbc:Name>
-                    <cbc:Telephone>+49 (03328) 9476657</cbc:Telephone>
-                    <cbc:Telefax>+49 (0651) 1291510</cbc:Telefax>
-                    <cbc:ElectronicMail>cornelia.engel@example.com</cbc:ElectronicMail>
+                    <cbc:Name>Waldemar Heim</cbc:Name>
+                    <cbc:Telephone>+4903776 8983558</cbc:Telephone>
+                    <cbc:Telefax>+4904828 3001055</cbc:Telefax>
+                    <cbc:ElectronicMail>waldemar.heim@example.org</cbc:ElectronicMail>
                 </cac:Contact>
-            </cac:Party>
-            <cac:DeliveryContact>
-                <cbc:Name>Janine Metzger</cbc:Name>
-                <cbc:Telephone>+49(0461) 5231037</cbc:Telephone>
-                <cbc:Telefax>+49(0641) 136 4344</cbc:Telefax>
-                <cbc:ElectronicMail>janine.metzger@example.net</cbc:ElectronicMail>
-            </cac:DeliveryContact>
-            <cac:AccountingContact>
-                <cbc:Name>Renate Jacob</cbc:Name>
-                <cbc:Telephone>+49 7569 867 1766</cbc:Telephone>
-                <cbc:Telefax>+49 6052 5402965</cbc:Telefax>
-                <cbc:ElectronicMail>renate.jacob@example.org</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:BuyerContact>
-                <cbc:Name>Bernard Schüler</cbc:Name>
-                <cbc:Telephone>+49 (0211) 6984910</cbc:Telephone>
-                <cbc:Telefax>+49(09330) 310 9906</cbc:Telefax>
-                <cbc:ElectronicMail>bernard.schüler@example.org</cbc:ElectronicMail>
-            </cac:BuyerContact>
-        </cac:DeliveryCustomerParty>
-        <cac:DespatchSupplierParty>
-            <cac:Party>
-                <cac:PostalAddress>
-                    <cac:AddressLine>
-                        <cbc:Line>Nils-Otto-Allee 60</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>60545 Güstrow</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>Deutschland</cbc:Line>
-                    </cac:AddressLine>
-                </cac:PostalAddress>
-                <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Pfeifer</cbc:RegistrationName>
-                </cac:PartyLegalEntity>
-                <cac:Contact>
-                    <cbc:Name>Miroslaw Bode</cbc:Name>
-                    <cbc:Telephone>+49 (0471) 1534418</cbc:Telephone>
-                    <cbc:Telefax>+49 (0291) 147 9064</cbc:Telefax>
-                    <cbc:ElectronicMail>miroslaw.bode@example.com</cbc:ElectronicMail>
-                </cac:Contact>
-            </cac:Party>
-            <cac:DespatchContact>
-                <cbc:Name>Swen Kluge</cbc:Name>
-                <cbc:Telephone>+49 39275 207 0078</cbc:Telephone>
-                <cbc:Telefax>+49 641 7484001</cbc:Telefax>
-                <cbc:ElectronicMail>swen.kluge@example.net</cbc:ElectronicMail>
-            </cac:DespatchContact>
-            <cac:AccountingContact>
-                <cbc:Name>Gunther Keller</cbc:Name>
-                <cbc:Telephone>+4949041884223</cbc:Telephone>
-                <cbc:Telefax>+492589050 4809</cbc:Telefax>
-                <cbc:ElectronicMail>gunther.keller@example.com</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:SellerContact>
-                <cbc:Name>Hans-Joachim Jung</cbc:Name>
-                <cbc:Telephone>+49(05628) 960 7799</cbc:Telephone>
-                <cbc:Telefax>+49 (0851) 8686648</cbc:Telefax>
-                <cbc:ElectronicMail>hans-joachim.jung@example.com</cbc:ElectronicMail>
-            </cac:SellerContact>
-        </cac:DespatchSupplierParty>
-        <cac:BuyerCustomerParty>
-            <cac:Party>
-                <cac:PostalAddress>
-                    <cac:AddressLine>
-                        <cbc:Line>Behrendtstraße 54</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>00090 Norden</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>Deutschland</cbc:Line>
-                    </cac:AddressLine>
-                </cac:PostalAddress>
-                <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Geyer</cbc:RegistrationName>
-                </cac:PartyLegalEntity>
-                <cac:Contact>
-                    <cbc:Name>Bertram Heinrich</cbc:Name>
-                    <cbc:Telephone>+49 (03824) 639 5441</cbc:Telephone>
-                    <cbc:Telefax>+4904934 862 1191</cbc:Telefax>
-                    <cbc:ElectronicMail>bertram.heinrich@example.net</cbc:ElectronicMail>
-                </cac:Contact>
-            </cac:Party>
-            <cac:DeliveryContact>
-                <cbc:Name>Nora Kopp</cbc:Name>
-                <cbc:Telephone>+49228430 4126</cbc:Telephone>
-                <cbc:Telefax>+49 331 280 7204</cbc:Telefax>
-                <cbc:ElectronicMail>nora.kopp@example.net</cbc:ElectronicMail>
-            </cac:DeliveryContact>
-            <cac:AccountingContact>
-                <cbc:Name>Annegret May</cbc:Name>
-                <cbc:Telephone>+49 40 056 7302</cbc:Telephone>
-                <cbc:Telefax>+49 6056 8644038</cbc:Telefax>
-                <cbc:ElectronicMail>annegret.may@example.net</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:BuyerContact>
-                <cbc:Name>Günter Grimm</cbc:Name>
-                <cbc:Telephone>+4908562 0393628</cbc:Telephone>
-                <cbc:Telefax>+49 (0261) 4106454</cbc:Telefax>
-                <cbc:ElectronicMail>günter.grimm@example.net</cbc:ElectronicMail>
-            </cac:BuyerContact>
-        </cac:BuyerCustomerParty>
-        <cac:SellerSupplierParty>
-            <cac:Party>
-                <cac:PostalAddress>
-                    <cac:AddressLine>
-                        <cbc:Line>Caroline-Reichel-Allee 399</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>73294 Waltrop</cbc:Line>
-                    </cac:AddressLine>
-                    <cac:AddressLine>
-                        <cbc:Line>Deutschland</cbc:Line>
-                    </cac:AddressLine>
-                </cac:PostalAddress>
-                <cac:PartyLegalEntity>
-                    <cbc:RegistrationName>Hübner</cbc:RegistrationName>
-                </cac:PartyLegalEntity>
-                <cac:Contact>
-                    <cbc:Name>Sven Bayer</cbc:Name>
-                    <cbc:Telephone>+49355648 6014</cbc:Telephone>
-                    <cbc:Telefax>+49 211 4503512</cbc:Telefax>
-                    <cbc:ElectronicMail>sven.bayer@example.com</cbc:ElectronicMail>
-                </cac:Contact>
-            </cac:Party>
-            <cac:DespatchContact>
-                <cbc:Name>Reinhardt Groß</cbc:Name>
-                <cbc:Telephone>+49 4804 5479129</cbc:Telephone>
-                <cbc:Telefax>+49 5251 103 0293</cbc:Telefax>
-                <cbc:ElectronicMail>reinhardt.groß@example.net</cbc:ElectronicMail>
-            </cac:DespatchContact>
-            <cac:AccountingContact>
-                <cbc:Name>Elke Preuß</cbc:Name>
-                <cbc:Telephone>+490365 428 8003</cbc:Telephone>
-                <cbc:Telefax>+49 4205 3174669</cbc:Telefax>
-                <cbc:ElectronicMail>elke.preuß@example.net</cbc:ElectronicMail>
-            </cac:AccountingContact>
-            <cac:SellerContact>
-                <cbc:Name>Hans-Günther Martens</cbc:Name>
-                <cbc:Telephone>+490841 675 1833</cbc:Telephone>
-                <cbc:Telefax>+49 (02309) 5558511</cbc:Telefax>
-                <cbc:ElectronicMail>hans-günther.martens@example.org</cbc:ElectronicMail>
-            </cac:SellerContact>
-        </cac:SellerSupplierParty>
-        <cac:Shipment>
-            <cac:ShipmentStage>
-                <cac:CarrierParty>
-                    <cac:PostalAddress>
-                        <cac:AddressLine>
-                            <cbc:Line>Kuhlmannring 6</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>67011 Hockenheim</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:PostalAddress>
-                    <cac:PartyLegalEntity>
-                        <cbc:RegistrationName>Neubauer</cbc:RegistrationName>
-                    </cac:PartyLegalEntity>
-                    <cac:Contact>
-                        <cbc:Name>Mario Keßler</cbc:Name>
-                        <cbc:Telephone>+49 385 9243930</cbc:Telephone>
-                        <cbc:Telefax>+499224097 5987</cbc:Telefax>
-                        <cbc:ElectronicMail>mario.keßler@example.net</cbc:ElectronicMail>
-                    </cac:Contact>
-                </cac:CarrierParty>
-                <cac:DriverPerson>
-                    <cbc:FirstName>Manja</cbc:FirstName>
-                    <cbc:FamilyName>Fritz</cbc:FamilyName>
-                    <cac:Contact>
-                        <cbc:Name>Manja Fritz</cbc:Name>
-                        <cbc:Telephone>+49(0611) 708 1703</cbc:Telephone>
-                        <cbc:Telefax>+49 6133 188 3282</cbc:Telefax>
-                        <cbc:ElectronicMail>manja.fritz@example.org</cbc:ElectronicMail>
-                    </cac:Contact>
-                </cac:DriverPerson>
-            </cac:ShipmentStage>
-            <cac:Delivery>
-                <cac:DeliveryLocation>
-                    <cac:Address>
-                        <cac:AddressLine>
-                            <cbc:Line>Kesslerplatz 5</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>06640 Frechen</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:Address>
-                </cac:DeliveryLocation>
-                <cac:AlternativeDeliveryLocation>
-                    <cac:Address>
-                        <cac:AddressLine>
-                            <cbc:Line>Samuel-Wiesner-Weg 96c</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>24650 Griesheim</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:Address>
-                </cac:AlternativeDeliveryLocation>
-                <cac:CarrierParty>
-                    <cac:PostalAddress>
-                        <cac:AddressLine>
-                            <cbc:Line>Hechtgasse 2</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>82105 Monheim am Rhein</cbc:Line>
-                        </cac:AddressLine>
-                        <cac:AddressLine>
-                            <cbc:Line>Deutschland</cbc:Line>
-                        </cac:AddressLine>
-                    </cac:PostalAddress>
-                    <cac:PartyLegalEntity>
-                        <cbc:RegistrationName>Vollmer</cbc:RegistrationName>
-                    </cac:PartyLegalEntity>
-                    <cac:Contact>
-                        <cbc:Name>Waldemar Heim</cbc:Name>
-                        <cbc:Telephone>+4903776 8983558</cbc:Telephone>
-                        <cbc:Telefax>+4904828 3001055</cbc:Telefax>
-                        <cbc:ElectronicMail>waldemar.heim@example.org</cbc:ElectronicMail>
-                    </cac:Contact>
-                </cac:CarrierParty>
-            </cac:Delivery>
-        </cac:Shipment>
-        <cac:ReceiptLine>
-            <cbc:ID>1</cbc:ID>
-            <cbc:Note>1comment</cbc:Note>
-            <cbc:RejectedQuantity unitCode="C62">1000.0</cbc:RejectedQuantity>
-            <cac:DocumentReference>
-                <cbc:ID>1750417642475.jpeg</cbc:ID>
-                <cac:Attachment>
-                    <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64" filename="1750417642475.jpeg" format="jpeg" mimeCode="image/jpeg"><![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
+            </cac:CarrierParty>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>1comment</cbc:Note>
+        <cbc:RejectedQuantity unitCode="C62">1000.0</cbc:RejectedQuantity>
+        <cac:DocumentReference>
+            <cbc:ID>1750417642475.jpeg</cbc:ID>
+            <cac:Attachment>
+                <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64"
+                                                  filename="1750417642475.jpeg" format="jpeg" mimeCode="image/jpeg">
+                    <![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
 IFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAA
 AADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlk
 ZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAA
@@ -6392,26 +6398,28 @@ pi/UBimoJTQNXurrDFEdoMQJogAiNGMX0NGdMDh0tnCjdTZ1MMM8owGO+ntYkyZnOpi/UACVUhTi
 IGC7sYFR2EIzTQL31YFiQONtPU0oFngMKr6rdmq5qJXQfPPP6hkyvhf2xmfiFIJAEYGGnUxEDFph
 jWxCiQFGmnG6NtgVNAJwTAZ8ZpfW1WY6mVe8d3Qgo//Z
 ]]></cbc:EmbeddedDocumentBinaryObject>
-                </cac:Attachment>
-            </cac:DocumentReference>
-            <cac:Item>
-                <cbc:PackQuantity>13.0</cbc:PackQuantity>
-                <cbc:Name>repellendus</cbc:Name>
-                <cbc:BrandName>natus</cbc:BrandName>
-                <cbc:ModelName>suscipit</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Vogel Hagen AG &amp; Co. KG52245</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
-        <cac:ReceiptLine>
-            <cbc:ID>2</cbc:ID>
-            <cbc:Note>2comment</cbc:Note>
-            <cbc:RejectedQuantity unitCode="C62">111.0</cbc:RejectedQuantity>
-            <cac:DocumentReference>
-                <cbc:ID>1750417668775.jpeg</cbc:ID>
-                <cac:Attachment>
-                    <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64" filename="1750417668775.jpeg" format="jpeg" mimeCode="image/jpeg"><![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
+            </cac:Attachment>
+        </cac:DocumentReference>
+        <cac:Item>
+            <cbc:PackQuantity>13.0</cbc:PackQuantity>
+            <cbc:Name>repellendus</cbc:Name>
+            <cbc:BrandName>natus</cbc:BrandName>
+            <cbc:ModelName>suscipit</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Vogel Hagen AG &amp; Co. KG52245</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
+    <cac:ReceiptLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:Note>2comment</cbc:Note>
+        <cbc:RejectedQuantity unitCode="C62">111.0</cbc:RejectedQuantity>
+        <cac:DocumentReference>
+            <cbc:ID>1750417668775.jpeg</cbc:ID>
+            <cac:Attachment>
+                <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64"
+                                                  filename="1750417668775.jpeg" format="jpeg" mimeCode="image/jpeg">
+                    <![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
 IFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAA
 AADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlk
 ZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAA
@@ -12503,26 +12511,28 @@ ECiYIb590fmIRYspymCMeePywZpQhZc4S53MykyeBgUmS6d7wgDlEb/f3thiAeV/Isk5ShMpv8WE
 587OyDiQgEI6wjhb8mEqk8DCgU6VUZCA4c3BhbY2BUPI/I37Qvk0gdIigS0DWfLG2z3NHvCIkAxh
 NVKUtYxgDm3Eds2aQSvR3yeAf//Z
 ]]></cbc:EmbeddedDocumentBinaryObject>
-                </cac:Attachment>
-            </cac:DocumentReference>
-            <cac:Item>
-                <cbc:PackQuantity>20.0</cbc:PackQuantity>
-                <cbc:Name>nesciunt</cbc:Name>
-                <cbc:BrandName>est</cbc:BrandName>
-                <cbc:ModelName>nam</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Wolff63108</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
-        <cac:ReceiptLine>
-            <cbc:ID>2</cbc:ID>
-            <cbc:Note>2comment</cbc:Note>
-            <cbc:RejectedQuantity unitCode="C62">2222.0</cbc:RejectedQuantity>
-            <cac:DocumentReference>
-                <cbc:ID>1750417694306.jpeg</cbc:ID>
-                <cac:Attachment>
-                    <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64" filename="1750417694306.jpeg" format="jpeg" mimeCode="image/jpeg"><![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
+            </cac:Attachment>
+        </cac:DocumentReference>
+        <cac:Item>
+            <cbc:PackQuantity>20.0</cbc:PackQuantity>
+            <cbc:Name>nesciunt</cbc:Name>
+            <cbc:BrandName>est</cbc:BrandName>
+            <cbc:ModelName>nam</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Wolff63108</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
+    <cac:ReceiptLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:Note>2comment</cbc:Note>
+        <cbc:RejectedQuantity unitCode="C62">2222.0</cbc:RejectedQuantity>
+        <cac:DocumentReference>
+            <cbc:ID>1750417694306.jpeg</cbc:ID>
+            <cac:Attachment>
+                <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64"
+                                                  filename="1750417694306.jpeg" format="jpeg" mimeCode="image/jpeg">
+                    <![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
 IFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAA
 AADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlk
 ZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAA
@@ -18606,26 +18616,28 @@ HhSINidMDhr7cY1CmKcow9W2v4XV7m6ZONwBMcpTCIDpBi7FDBqO1pB6ttIBw8GmARKPaGKmIKUD
 hWFNmrqxrZ0rqPf16/UMjWLHgYUAmBaBMMN3bVBiJpgpDqadVGaNMbsWDwCyxoRPmwEDm0faop44
 vCFSr1jw4EFo0oOfXN3cx//Z
 ]]></cbc:EmbeddedDocumentBinaryObject>
-                </cac:Attachment>
-            </cac:DocumentReference>
-            <cac:Item>
-                <cbc:PackQuantity>20.0</cbc:PackQuantity>
-                <cbc:Name>nesciunt</cbc:Name>
-                <cbc:BrandName>est</cbc:BrandName>
-                <cbc:ModelName>nam</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Wolff63108</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
-        <cac:ReceiptLine>
-            <cbc:ID>2</cbc:ID>
-            <cbc:Note>2Comment3333</cbc:Note>
-            <cbc:RejectedQuantity unitCode="C62">3333.0</cbc:RejectedQuantity>
-            <cac:DocumentReference>
-                <cbc:ID>1750417717369.jpeg</cbc:ID>
-                <cac:Attachment>
-                    <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64" filename="1750417717369.jpeg" format="jpeg" mimeCode="image/jpeg"><![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
+            </cac:Attachment>
+        </cac:DocumentReference>
+        <cac:Item>
+            <cbc:PackQuantity>20.0</cbc:PackQuantity>
+            <cbc:Name>nesciunt</cbc:Name>
+            <cbc:BrandName>est</cbc:BrandName>
+            <cbc:ModelName>nam</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Wolff63108</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
+    <cac:ReceiptLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:Note>2Comment3333</cbc:Note>
+        <cbc:RejectedQuantity unitCode="C62">3333.0</cbc:RejectedQuantity>
+        <cac:DocumentReference>
+            <cbc:ID>1750417717369.jpeg</cbc:ID>
+            <cac:Attachment>
+                <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64"
+                                                  filename="1750417717369.jpeg" format="jpeg" mimeCode="image/jpeg">
+                    <![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
 IFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAA
 AADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlk
 ZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAA
@@ -24705,26 +24717,28 @@ TxtlwOPYOU5kjQrVgC/jiENg9ApMl073go6NUaxDWQtjLjfduUVQIQPIb/CS0d07WUUxVADsn3cd
 QslREDBEDVbuBu+O5lJk7jChRjAIQCcWHOmU4T6eOOgGTmzWc6OzwBlEMMYDujx24MI2iv5GACnd
 4DHie33WSBsKQBkBquHbfH3NJCkBiiIG4+PhCLAqkqAYwmq1fWx4xGEtzMv6LYYPdmLgD//Z
 ]]></cbc:EmbeddedDocumentBinaryObject>
-                </cac:Attachment>
-            </cac:DocumentReference>
-            <cac:Item>
-                <cbc:PackQuantity>20.0</cbc:PackQuantity>
-                <cbc:Name>nesciunt</cbc:Name>
-                <cbc:BrandName>est</cbc:BrandName>
-                <cbc:ModelName>nam</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Wolff63108</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
-        <cac:ReceiptLine>
-            <cbc:ID>1</cbc:ID>
-            <cbc:Note></cbc:Note>
-            <cbc:RejectedQuantity unitCode="C62">0.0</cbc:RejectedQuantity>
-            <cac:DocumentReference>
-                <cbc:ID>1750417616315.jpeg</cbc:ID>
-                <cac:Attachment>
-                    <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64" filename="1750417616315.jpeg" format="jpeg" mimeCode="image/jpeg"><![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
+            </cac:Attachment>
+        </cac:DocumentReference>
+        <cac:Item>
+            <cbc:PackQuantity>20.0</cbc:PackQuantity>
+            <cbc:Name>nesciunt</cbc:Name>
+            <cbc:BrandName>est</cbc:BrandName>
+            <cbc:ModelName>nam</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Wolff63108</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note></cbc:Note>
+        <cbc:RejectedQuantity unitCode="C62">0.0</cbc:RejectedQuantity>
+        <cac:DocumentReference>
+            <cbc:ID>1750417616315.jpeg</cbc:ID>
+            <cac:Attachment>
+                <cbc:EmbeddedDocumentBinaryObject characterSetCode="ASCII" encodingCode="base64"
+                                                  filename="1750417616315.jpeg" format="jpeg" mimeCode="image/jpeg">
+                    <![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
 IFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAA
 AADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlk
 ZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAA
@@ -30807,42 +30821,42 @@ ypnPpi7MRMYmpEJG7J6tnFjYcQEBiaGec9t/EWZOmJRrFNPjw35mZrmz9QeDABiiBDhEJG3WePVm
 gwJ0BAZwlKMw2cQjqaSKYBkMh4s8GUZOsWOvTKwZdrWSb0z8DzwDfB+rsI0iYxkbXK5nimAsjhk6
 dO6UWUJRKIiFvs3du3qZJjJmTGvk1fWzRjxZ2NEKP//Z
 ]]></cbc:EmbeddedDocumentBinaryObject>
-                </cac:Attachment>
-            </cac:DocumentReference>
-            <cac:Item>
-                <cbc:PackQuantity>13.0</cbc:PackQuantity>
-                <cbc:Name>repellendus</cbc:Name>
-                <cbc:BrandName>natus</cbc:BrandName>
-                <cbc:ModelName>suscipit</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Vogel Hagen AG &amp; Co. KG52245</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
-        <cac:ReceiptLine>
-            <cbc:ID>1</cbc:ID>
-            <cbc:ReceivedQuantity unitCode="C62">232.0</cbc:ReceivedQuantity>
-            <cac:Item>
-                <cbc:PackQuantity>13.0</cbc:PackQuantity>
-                <cbc:Name>repellendus</cbc:Name>
-                <cbc:BrandName>natus</cbc:BrandName>
-                <cbc:ModelName>suscipit</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Vogel Hagen AG &amp; Co. KG52245</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
-        <cac:ReceiptLine>
-            <cbc:ID>2</cbc:ID>
-            <cbc:ReceivedQuantity unitCode="C62">3284.0</cbc:ReceivedQuantity>
-            <cac:Item>
-                <cbc:PackQuantity>20.0</cbc:PackQuantity>
-                <cbc:Name>nesciunt</cbc:Name>
-                <cbc:BrandName>est</cbc:BrandName>
-                <cbc:ModelName>nam</cbc:ModelName>
-                <cac:ManufacturersItemIdentification>
-                    <cbc:ID>Wolff63108</cbc:ID>
-                </cac:ManufacturersItemIdentification>
-            </cac:Item>
-        </cac:ReceiptLine>
+            </cac:Attachment>
+        </cac:DocumentReference>
+        <cac:Item>
+            <cbc:PackQuantity>13.0</cbc:PackQuantity>
+            <cbc:Name>repellendus</cbc:Name>
+            <cbc:BrandName>natus</cbc:BrandName>
+            <cbc:ModelName>suscipit</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Vogel Hagen AG &amp; Co. KG52245</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
+    <cac:ReceiptLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:ReceivedQuantity unitCode="C62">232.0</cbc:ReceivedQuantity>
+        <cac:Item>
+            <cbc:PackQuantity>13.0</cbc:PackQuantity>
+            <cbc:Name>repellendus</cbc:Name>
+            <cbc:BrandName>natus</cbc:BrandName>
+            <cbc:ModelName>suscipit</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Vogel Hagen AG &amp; Co. KG52245</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
+    <cac:ReceiptLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:ReceivedQuantity unitCode="C62">3284.0</cbc:ReceivedQuantity>
+        <cac:Item>
+            <cbc:PackQuantity>20.0</cbc:PackQuantity>
+            <cbc:Name>nesciunt</cbc:Name>
+            <cbc:BrandName>est</cbc:BrandName>
+            <cbc:ModelName>nam</cbc:ModelName>
+            <cac:ManufacturersItemIdentification>
+                <cbc:ID>Wolff63108</cbc:ID>
+            </cac:ManufacturersItemIdentification>
+        </cac:Item>
+    </cac:ReceiptLine>
 </ReceiptAdvice>
