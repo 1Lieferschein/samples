@@ -2,7 +2,7 @@
 <ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2"
                xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
                xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-    <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+    <cbc:UBLVersionID>1LS.1.0</cbc:UBLVersionID>
     <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
     <cbc:ProfileID>DEFAULT</cbc:ProfileID>
     <cbc:ProfileExecutionID>1.0</cbc:ProfileExecutionID>
@@ -10,8 +10,8 @@
     <cbc:UUID>b46f4968-a8e7-4e1f-84bc-c560e7106ef8</cbc:UUID>
     <cbc:IssueDate>2025-06-17Z</cbc:IssueDate>
     <cac:Signature>
-        <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
-        <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
+        <cbc:ID>1lieferschein_signature</cbc:ID>
+        <cbc:ReasonCode>ra_creation_receiver</cbc:ReasonCode>
         <cbc:ValidationDate>2025-06-17Z</cbc:ValidationDate>
         <cbc:ValidationTime>06:51:02Z</cbc:ValidationTime>
         <cbc:ValidatorID>1ls_bobbie_android:1.0.16</cbc:ValidatorID>

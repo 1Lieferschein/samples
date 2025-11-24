@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:csc="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2">
-    <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+    <cbc:UBLVersionID>1LS.1.0</cbc:UBLVersionID>
     <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
     <cbc:ProfileID>CONCRETE</cbc:ProfileID>
     <cbc:ProfileExecutionID>1.0</cbc:ProfileExecutionID>
@@ -36,8 +36,8 @@
         <cbc:DocumentType>Vertrag</cbc:DocumentType>
     </cac:AdditionalDocumentReference>
     <cac:Signature>
-        <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
-        <cbc:ReasonCode>RA_CREATION_RECEIVER</cbc:ReasonCode>
+        <cbc:ID>1lieferschein_signature</cbc:ID>
+        <cbc:ReasonCode>ra_creation_receiver</cbc:ReasonCode>
         <cbc:ValidationDate>2025-06-10Z</cbc:ValidationDate>
         <cbc:ValidationTime>05:52:44Z</cbc:ValidationTime>
         <cbc:ValidatorID>1lieferschein-creator-tool-v1</cbc:ValidatorID>

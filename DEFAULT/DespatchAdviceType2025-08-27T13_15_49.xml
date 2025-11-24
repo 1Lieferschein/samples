@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:csc="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2">
-  <cbc:UBLVersionID>2.4</cbc:UBLVersionID>
+  <cbc:UBLVersionID>1LS.1.0</cbc:UBLVersionID>
   <cbc:CustomizationID>1Lieferschein</cbc:CustomizationID>
   <cbc:ProfileID>DEFAULT</cbc:ProfileID>
   <cbc:ProfileExecutionID>1.0</cbc:ProfileExecutionID>
@@ -8,7 +8,7 @@
   <cbc:UUID>9fb78d52-3b10-41d4-a959-a58fa26a68f1</cbc:UUID>
   <cbc:IssueDate>2025-02-05</cbc:IssueDate>
   <cac:Signature>
-    <cbc:ID>1LIEFERSCHEIN_SIGNATURE</cbc:ID>
+    <cbc:ID>1lieferschein_signature</cbc:ID>
     <cbc:ReasonCode>DA_CREATION_DRIVER</cbc:ReasonCode>
     <cbc:ValidationDate>2025-02-05</cbc:ValidationDate>
     <cbc:ValidationTime>03:25:50</cbc:ValidationTime>
